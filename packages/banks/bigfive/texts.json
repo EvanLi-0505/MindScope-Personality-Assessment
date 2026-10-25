@@ -1,0 +1,146 @@
+{
+ "domains": {
+  "O": {
+   "zh-CN": {
+    "name": "开放性",
+    "en": "Openness",
+    "summary": "对新想法、艺术、情感体验和变化的接纳程度。",
+    "high": "好奇、富有想象力，喜欢新鲜事物和抽象的思考，乐于尝试不同的做法。",
+    "mid": "在新与旧之间比较平衡：愿意尝试新事物，也重视实用和熟悉的方式。",
+    "low": "务实、脚踏实地，偏好熟悉、具体、经过验证的方式，对抽象讨论兴趣不大。",
+    "getAlongHigh": "和 TA 聊新想法、新体验；给 TA 尝试不同做法的空间。",
+    "getAlongLow": "说明事情的实际用处，给出具体例子；不要频繁变动已经定好的安排。"
+   },
+   "en": {
+    "name": "Openness",
+    "en": "Openness",
+    "summary": "How open someone is to new ideas, art, emotional experience and change.",
+    "high": "Curious and imaginative; enjoys new things and abstract thinking, and likes trying different approaches.",
+    "mid": "Balanced between new and familiar: willing to try new things while valuing practical, proven ways.",
+    "low": "Practical and down-to-earth; prefers familiar, concrete and proven ways and has little interest in abstract debate.",
+    "getAlongHigh": "Talk about new ideas and experiences; leave room for trying things differently.",
+    "getAlongLow": "Explain the practical use of things with concrete examples; avoid changing agreed plans often."
+   }
+  },
+  "C": {
+   "zh-CN": {
+    "name": "尽责性",
+    "en": "Conscientiousness",
+    "summary": "自我管理、计划性和坚持完成目标的程度。",
+    "high": "有条理、可靠、自律，习惯提前计划，做事有始有终。",
+    "mid": "在计划和灵活之间保持平衡，重要的事情会认真对待。",
+    "low": "随性灵活，不喜欢被计划束缚；有时可能拖延或丢三落四。",
+    "getAlongHigh": "守时守约，事先说清楚安排；TA 对质量的要求是认真，而不是挑剔。",
+    "getAlongLow": "把重要的事拆成小步骤、约好检查时间；多一些灵活和包容。"
+   },
+   "en": {
+    "name": "Conscientiousness",
+    "en": "Conscientiousness",
+    "summary": "How organised, self-disciplined and goal-directed someone is.",
+    "high": "Organised, dependable and self-disciplined; plans ahead and follows through.",
+    "mid": "Balances planning and flexibility; takes important things seriously.",
+    "low": "Spontaneous and flexible, dislikes being tied to plans; may sometimes procrastinate or forget things.",
+    "getAlongHigh": "Be on time and keep agreements; their standards come from care, not fussiness.",
+    "getAlongLow": "Break important tasks into small steps with check-ins; allow some flexibility."
+   }
+  },
+  "E": {
+   "zh-CN": {
+    "name": "外向性",
+    "en": "Extraversion",
+    "summary": "从社交和外部活动中获得能量、表达热情的程度。",
+    "high": "热情、健谈、精力充沛，喜欢与人交往，常常主动带动气氛。",
+    "mid": "能享受社交，也需要独处的时间来恢复精力。",
+    "low": "安静、内敛，更喜欢小范围的交流或独处，在熟悉的环境中更自在。",
+    "getAlongHigh": "多一起活动、多交流；及时回应 TA 的热情。",
+    "getAlongLow": "提前告知安排，给 TA 思考和独处的时间；一对一交流比在人群中更好。"
+   },
+   "en": {
+    "name": "Extraversion",
+    "en": "Extraversion",
+    "summary": "How much someone draws energy from social contact and outside activity.",
+    "high": "Warm, talkative and energetic; enjoys people and often livens things up.",
+    "mid": "Enjoys company but also needs time alone to recharge.",
+    "low": "Quiet and reserved; prefers small groups or solitude and is most at ease in familiar settings.",
+    "getAlongHigh": "Do things together and keep talking; respond to their enthusiasm.",
+    "getAlongLow": "Give notice of plans and time to think alone; one-to-one works better than crowds."
+   }
+  },
+  "A": {
+   "zh-CN": {
+    "name": "宜人性",
+    "en": "Agreeableness",
+    "summary": "待人友善、合作、信任和体谅他人的程度。",
+    "high": "体贴、乐于助人、容易信任别人，重视人际和谐。",
+    "mid": "友善但有自己的立场，必要时会坚持己见。",
+    "low": "直接、注重事实和公平竞争，不轻易信任别人，必要时敢于提出反对。",
+    "getAlongHigh": "表达感谢；TA 不容易拒绝别人，要留意 TA 是否在勉强自己。",
+    "getAlongLow": "直接说重点、用事实讨论；TA 的反对多半针对事情而不是针对人。"
+   },
+   "en": {
+    "name": "Agreeableness",
+    "en": "Agreeableness",
+    "summary": "How friendly, cooperative, trusting and considerate someone is.",
+    "high": "Considerate, helpful and trusting; values harmony.",
+    "mid": "Friendly but with their own views; will stand firm when needed.",
+    "low": "Direct, focused on facts and fair competition; slow to trust and willing to disagree.",
+    "getAlongHigh": "Show appreciation; they find it hard to say no, so check they are not overstretching.",
+    "getAlongLow": "Get to the point and argue with facts; their objections are usually about the issue, not you."
+   }
+  },
+  "N": {
+   "zh-CN": {
+    "name": "情绪敏感性",
+    "en": "Neuroticism",
+    "summary": "体验焦虑、烦躁、低落等负面情绪的倾向（心理学中称为“神经质”，这不是贬义，也不是疾病）。",
+    "high": "情绪反应较强，容易担心、紧张或感到压力；同时往往对风险和细微变化更敏感。",
+    "mid": "大多数时候情绪平稳，压力较大时会有明显波动。",
+    "low": "情绪平稳、不易焦虑，在压力下通常能保持冷静。",
+    "getAlongHigh": "多给予确定的信息和安慰，避免突然的变化；认真对待 TA 的担心。",
+    "getAlongLow": "TA 看起来很平静，不代表不在意；重要的感受可以直接问。"
+   },
+   "en": {
+    "name": "Neuroticism",
+    "en": "Neuroticism",
+    "summary": "The tendency to experience negative emotions such as worry, irritation or low mood (a research term — not an insult, not an illness).",
+    "high": "Reacts strongly; worries, tenses up or feels stressed easily, and often notices risks and small changes.",
+    "mid": "Mostly steady, with noticeable ups and downs under heavy stress.",
+    "low": "Emotionally steady and rarely anxious; usually stays calm under pressure.",
+    "getAlongHigh": "Offer clear information and reassurance, avoid sudden changes, and take their worries seriously.",
+    "getAlongLow": "Looking calm does not mean not caring; ask directly about important feelings."
+   }
+  }
+ },
+ "facets": {
+  "N1": { "zh-CN": "焦虑", "en": "Anxiety" },
+  "N2": { "zh-CN": "易怒", "en": "Anger" },
+  "N3": { "zh-CN": "情绪低落", "en": "Depression" },
+  "N4": { "zh-CN": "社交拘谨", "en": "Self-Consciousness" },
+  "N5": { "zh-CN": "冲动放纵", "en": "Immoderation" },
+  "N6": { "zh-CN": "易受压力影响", "en": "Vulnerability" },
+  "E1": { "zh-CN": "友善", "en": "Friendliness" },
+  "E2": { "zh-CN": "合群", "en": "Gregariousness" },
+  "E3": { "zh-CN": "果断自信", "en": "Assertiveness" },
+  "E4": { "zh-CN": "活跃程度", "en": "Activity Level" },
+  "E5": { "zh-CN": "寻求刺激", "en": "Excitement-Seeking" },
+  "E6": { "zh-CN": "愉悦", "en": "Cheerfulness" },
+  "O1": { "zh-CN": "想象力", "en": "Imagination" },
+  "O2": { "zh-CN": "艺术兴趣", "en": "Artistic Interests" },
+  "O3": { "zh-CN": "情绪感受", "en": "Emotionality" },
+  "O4": { "zh-CN": "求新求变", "en": "Adventurousness" },
+  "O5": { "zh-CN": "智识好奇", "en": "Intellect" },
+  "O6": { "zh-CN": "价值观开放（改编）", "en": "Liberalism (adapted)" },
+  "A1": { "zh-CN": "信任", "en": "Trust" },
+  "A2": { "zh-CN": "真诚守德", "en": "Morality" },
+  "A3": { "zh-CN": "利他", "en": "Altruism" },
+  "A4": { "zh-CN": "合作", "en": "Cooperation" },
+  "A5": { "zh-CN": "谦逊", "en": "Modesty" },
+  "A6": { "zh-CN": "同情心", "en": "Sympathy" },
+  "C1": { "zh-CN": "自我效能", "en": "Self-Efficacy" },
+  "C2": { "zh-CN": "条理性", "en": "Orderliness" },
+  "C3": { "zh-CN": "尽职", "en": "Dutifulness" },
+  "C4": { "zh-CN": "追求成就", "en": "Achievement-Striving" },
+  "C5": { "zh-CN": "自律", "en": "Self-Discipline" },
+  "C6": { "zh-CN": "谨慎", "en": "Cautiousness" }
+ }
+}

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512">
+  <title>MindScope</title>
+  <!-- App icon: white head + gradient radar on a gradient rounded square. -->
+  <defs>
+    <linearGradient id="ms-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2BA88F"/>
+      <stop offset="1" stop-color="#5B4FE0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="56" fill="url(#ms-bg)"/>
+  <g transform="translate(18 14) scale(0.86)">
+    <path fill="#FFFFFF" d="
+      M 84 236
+      C 86 214, 80 200, 66 184
+      C 44 160, 36 128, 44 98
+      C 56 54, 98 26, 144 28
+      C 190 30, 222 64, 222 108
+      C 222 118, 224 126, 230 136
+      L 242 157
+      C 246 164, 243 168, 237 168
+      L 231 168
+      C 232 176, 234 182, 230 188
+      C 228 193, 230 199, 227 204
+      C 222 211, 210 211, 196 209
+      L 186 208
+      C 176 207, 170 214, 170 224
+      L 170 236
+      Z"/>
+    <g transform="translate(136 114)" stroke-linejoin="round">
+      <polygon fill="none" stroke="#5B4FE0" stroke-opacity="0.35" stroke-width="3"
+        points="0,-58 41,-41 58,0 41,41 0,58 -41,41 -58,0 -41,-41"/>
+      <polygon fill="url(#ms-bg)" stroke="none"
+        points="0,-53.4 28.7,-28.7 31.9,0 32.8,32.8 0,26.1 -30.8,30.8 -37.7,0 -24.6,-24.6"/>
+    </g>
+  </g>
+</svg>

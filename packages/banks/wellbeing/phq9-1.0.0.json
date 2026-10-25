@@ -1,0 +1,101 @@
+{
+  "kind": "wellbeing",
+  "instrument": "phq9",
+  "version": "1.0.0",
+  "status": "published",
+  "shortName": { "zh-CN": "PHQ-9", "en": "PHQ-9" },
+  "title": { "zh-CN": "PHQ-9 抑郁症状自评", "en": "PHQ-9 Depression Symptoms" },
+  "description": {
+    "zh-CN": "患者健康问卷第 9 版（PHQ-9），国际上广泛使用的抑郁症状筛查量表，询问过去两周内 9 种常见症状出现的频率。",
+    "en": "The Patient Health Questionnaire-9, a widely used screener that asks how often nine common depressive symptoms occurred over the last two weeks."
+  },
+  "instructions": {
+    "zh-CN": "在过去的两周里，你生活中以下症状出现的频率有多少？",
+    "en": "Over the last 2 weeks, how often have you been bothered by any of the following problems?"
+  },
+  "license": "Public domain",
+  "licenseNote": {
+    "zh-CN": "PHQ 系列量表由 Robert L. Spitzer、Janet B.W. Williams、Kurt Kroenke 等人在 Pfizer 教育资助下编制，属于公有领域，复制、翻译、展示和分发均无需许可（见 phqscreeners.com 使用手册）。",
+    "en": "The PHQ measures were developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues with an educational grant from Pfizer Inc. They are in the public domain; no permission is required to reproduce, translate, display or distribute (PHQ instruction manual, phqscreeners.com)."
+  },
+  "source": {
+    "zh-CN": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med 2001;16:606-613。分级依据官方使用手册。中文措辞采用国内研究中广泛使用的简体中文版本，尚未与 phqscreeners.com 的官方中文译本逐字核对。",
+    "en": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med 2001;16:606-613. Severity bands follow the official instruction manual."
+  },
+  "citation": "Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606-613.",
+  "options": [
+    { "value": 0, "label": { "zh-CN": "完全不会", "en": "Not at all" } },
+    { "value": 1, "label": { "zh-CN": "好几天", "en": "Several days" } },
+    { "value": 2, "label": { "zh-CN": "一半以上的天数", "en": "More than half the days" } },
+    { "value": 3, "label": { "zh-CN": "几乎每天", "en": "Nearly every day" } }
+  ],
+  "items": [
+    { "id": "PHQ9-01", "text": { "zh-CN": "做事时提不起劲或没有兴趣", "en": "Little interest or pleasure in doing things" } },
+    { "id": "PHQ9-02", "text": { "zh-CN": "感到心情低落、沮丧或绝望", "en": "Feeling down, depressed, or hopeless" } },
+    { "id": "PHQ9-03", "text": { "zh-CN": "入睡困难、睡不安稳或睡眠过多", "en": "Trouble falling or staying asleep, or sleeping too much" } },
+    { "id": "PHQ9-04", "text": { "zh-CN": "感觉疲倦或没有活力", "en": "Feeling tired or having little energy" } },
+    { "id": "PHQ9-05", "text": { "zh-CN": "食欲不振或吃太多", "en": "Poor appetite or overeating" } },
+    { "id": "PHQ9-06", "text": { "zh-CN": "觉得自己很糟，或觉得自己很失败，或让自己或家人失望", "en": "Feeling bad about yourself — or that you are a failure or have let yourself or your family down" } },
+    { "id": "PHQ9-07", "text": { "zh-CN": "对事物专注有困难，例如阅读报纸或看电视时", "en": "Trouble concentrating on things, such as reading the newspaper or watching television" } },
+    { "id": "PHQ9-08", "text": { "zh-CN": "动作或说话速度缓慢到别人已经觉察；或正好相反，烦躁或坐立不安、动来动去的情况比平常多", "en": "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual" } },
+    { "id": "PHQ9-09", "text": { "zh-CN": "有不如死掉或用某种方式伤害自己的念头", "en": "Thoughts that you would be better off dead or of hurting yourself in some way" } }
+  ],
+  "scoring": {
+    "engine": "sum@1",
+    "multiplier": 1,
+    "higherIsBetter": false,
+    "meaningfulChange": 5,
+    "safety": { "itemIds": ["PHQ9-09"], "minValue": 1 },
+    "bands": [
+      {
+        "key": "minimal", "min": 0, "max": 4, "level": "minimal",
+        "label": { "zh-CN": "极轻微", "en": "Minimal" },
+        "summary": { "zh-CN": "过去两周里，抑郁相关的症状很少或几乎没有。", "en": "Few or no depressive symptoms over the last two weeks." },
+        "suggestions": [
+          { "zh-CN": "继续保持规律的作息、运动和与他人的联系。", "en": "Keep up regular sleep, activity and contact with people you trust." },
+          { "zh-CN": "状态有变化时，可以过一段时间再做一次自评作比较。", "en": "If things change, take this check-in again later to compare." }
+        ]
+      },
+      {
+        "key": "mild", "min": 5, "max": 9, "level": "mild",
+        "label": { "zh-CN": "轻度", "en": "Mild" },
+        "summary": { "zh-CN": "存在一些抑郁相关的症状，程度较轻。很多人在压力较大或经历变化时都会出现这种情况。", "en": "Some depressive symptoms at a mild level — common during stressful periods or changes." },
+        "suggestions": [
+          { "zh-CN": "留意睡眠、饮食和活动量，尽量保持规律。", "en": "Pay attention to sleep, eating and activity, and keep them regular." },
+          { "zh-CN": "安排一些让自己感到愉快或有成就感的小事。", "en": "Plan small activities that bring enjoyment or a sense of achievement." },
+          { "zh-CN": "可以在两周左右后再做一次，观察变化（官方建议此阶段“观察并复查”）。", "en": "Repeat the check-in in about two weeks to see how things change (the official guidance is watchful waiting and repeat screening)." }
+        ]
+      },
+      {
+        "key": "moderate", "min": 10, "max": 14, "level": "moderate", "seekHelp": true,
+        "label": { "zh-CN": "中度", "en": "Moderate" },
+        "summary": { "zh-CN": "抑郁相关的症状已经比较明显。官方手册把 10 分作为需要关注的“黄色信号”。", "en": "Depressive symptoms are fairly noticeable. The official manual treats 10 or more as a “yellow flag” worth attention." },
+        "suggestions": [
+          { "zh-CN": "建议和医生、心理咨询师或其他专业人士聊一聊，获得进一步的评估。", "en": "Consider talking with a doctor, counsellor or other professional for a proper assessment." },
+          { "zh-CN": "把感受告诉一位信任的人，不必独自承受。", "en": "Share how you feel with someone you trust; you do not have to carry it alone." },
+          { "zh-CN": "尽量保持基本的作息和日常活动，哪怕只是很小的一步。", "en": "Try to keep basic routines and daily activities, even in small steps." }
+        ]
+      },
+      {
+        "key": "moderately_severe", "min": 15, "max": 19, "level": "high", "seekHelp": true,
+        "label": { "zh-CN": "中重度", "en": "Moderately severe" },
+        "summary": { "zh-CN": "抑郁相关的症状较多且较频繁，可能已经影响到生活和工作。官方手册把 15 分作为“红色信号”。", "en": "Many frequent depressive symptoms that may be affecting daily life. The official manual treats 15 or more as a “red flag”." },
+        "suggestions": [
+          { "zh-CN": "建议尽快联系医院的精神心理科、心理门诊或专业咨询机构进行评估。", "en": "Please contact a mental-health service, clinic or qualified professional for an assessment soon." },
+          { "zh-CN": "如果需要倾诉或不知道从哪里开始，可以拨打全国统一心理援助热线 12356。", "en": "If you need someone to talk to or do not know where to start, call a mental-health helpline (in China: 12356)." },
+          { "zh-CN": "请告诉身边信任的人你最近的状态。", "en": "Let someone close to you know how you have been." }
+        ]
+      },
+      {
+        "key": "severe", "min": 20, "max": 27, "level": "severe", "seekHelp": true,
+        "label": { "zh-CN": "重度", "en": "Severe" },
+        "summary": { "zh-CN": "抑郁相关的症状很多且几乎每天出现。这是一个需要认真对待的信号，你值得得到专业的帮助。", "en": "Many symptoms nearly every day. This deserves serious attention, and you deserve professional support." },
+        "suggestions": [
+          { "zh-CN": "请尽快寻求专业帮助：医院精神心理科、心理门诊，或拨打 12356 心理援助热线。", "en": "Please seek professional help soon: a mental-health service or clinic, or a mental-health helpline (in China: 12356)." },
+          { "zh-CN": "如果有伤害自己的想法或身处危险中，请立即拨打 110 或 120，或前往最近的医院急诊。", "en": "If you have thoughts of harming yourself or are in danger, call emergency services or go to the nearest emergency department now." },
+          { "zh-CN": "请让一位信任的人陪在身边。", "en": "Ask someone you trust to stay with you." }
+        ]
+      }
+    ]
+  }
+}

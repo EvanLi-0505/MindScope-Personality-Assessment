@@ -1,0 +1,483 @@
+{
+  "_note": "MindScope type profiles. Original text, CC BY-SA 4.0. Describes common tendencies, not fixed identities.",
+  "INTJ": {
+    "zh-CN": {
+      "title": "远景筹划者",
+      "summary": "倾向于从长远出发看问题，喜欢先在心里形成一幅完整的蓝图，再用清晰的逻辑和计划一步步实现它。独立、专注，重视能力与效率。",
+      "strengths": ["能看清复杂局面背后的主线，提前预见问题", "目标明确，执行有条理", "独立思考，不轻易被流行观点左右", "对自己和工作有较高标准"],
+      "challenges": ["可能显得冷淡或难以接近", "对效率低的人和流程容易不耐烦", "有时过于相信自己的判断，忽略他人意见", "不太擅长表达情感，也可能忽视自己的情绪需要"],
+      "work": "适合需要长远规划、系统设计和独立判断的工作，比如研究、战略、工程架构。喜欢有自主空间、目标清晰的环境，不喜欢无意义的会议和频繁打断。学习时偏好先理解整体框架。",
+      "communication": "说话简洁、重点明确，偏好以逻辑和证据讨论问题。不太喜欢闲聊，但对感兴趣的话题可以深入交流很久。",
+      "relationships": "朋友不多但很稳定，重视彼此的独立和智识上的交流。表达关心的方式往往是帮对方解决实际问题，而不是说温暖的话。",
+      "getAlong": {
+        "do": ["直接说重点，给出理由和依据", "尊重他们独处和思考的时间", "在做决定前给他们时间想清楚"],
+        "avoid": ["临时改变计划又不给解释", "用纯情绪化的方式施压"]
+      },
+      "growth": ["在下结论前多听听不同的声音", "练习把感谢和关心说出口", "接受计划之外的变化，它们未必是坏事"]
+    },
+    "en": {
+      "title": "Long-range Planner",
+      "summary": "Tends to look at things over the long run, forming a complete blueprint in mind first and then realizing it step by step with clear logic and planning. Independent, focused, and values competence and efficiency.",
+      "strengths": ["Sees the main thread behind complex situations and anticipates problems", "Has clear goals and carries them out methodically", "Thinks independently and isn't easily swayed by trends", "Holds high standards for self and work"],
+      "challenges": ["May come across as distant or hard to approach", "Can grow impatient with inefficient people and processes", "Sometimes trusts own judgment too much and overlooks others' input", "Finds it hard to express feelings and may neglect emotional needs"],
+      "work": "Suits work that calls for long-term planning, system design and independent judgment, such as research, strategy or engineering architecture. Prefers autonomy and clear goals; dislikes pointless meetings and frequent interruptions. Likes to grasp the overall framework when learning.",
+      "communication": "Concise and to the point; prefers to discuss issues with logic and evidence. Not fond of small talk, but can talk at length about topics of interest.",
+      "relationships": "Has few but steady friendships and values mutual independence and intellectual exchange. Often shows care by solving practical problems rather than with warm words.",
+      "getAlong": {
+        "do": ["Get to the point and give reasons and evidence", "Respect their time alone to think", "Give them time to think before a decision"],
+        "avoid": ["Changing plans at short notice without explanation", "Applying pressure through purely emotional appeals"]
+      },
+      "growth": ["Listen to different voices before concluding", "Practice saying thanks and showing care out loud", "Accept unplanned changes; they are not always bad"]
+    }
+  },
+  "INTP": {
+    "zh-CN": {
+      "title": "原理探索者",
+      "summary": "对“为什么”有强烈的好奇心，喜欢在头脑中搭建精确的逻辑模型，弄清事物运作的原理。思维灵活、独立，享受思考本身。",
+      "strengths": ["分析能力强，善于发现矛盾和漏洞", "对新理论、新想法保持开放", "能从基本原理出发解决复杂问题", "冷静客观，不轻易被情绪带动"],
+      "challenges": ["想得多做得少，容易拖延落地", "可能忽视日常琐事和截止日期", "表达时过于追求精确，让人觉得难懂或挑剔", "不太擅长察觉和回应他人的情绪"],
+      "work": "适合需要深度分析和独立思考的工作，比如科研、编程、理论研究、系统分析。喜欢灵活、少管束的环境，最怕重复性工作和过多的规矩。",
+      "communication": "喜欢讨论想法和概念，会追问细节和定义。说话时可能边想边修正，需要对方给一点耐心。",
+      "relationships": "在熟悉的人面前会展现幽默和好奇的一面。重视能深入交流想法的朋友，但可能需要提醒才会主动联系别人。",
+      "getAlong": {
+        "do": ["和他们讨论想法本身，欢迎不同观点", "给他们思考和独处的空间", "把期望和截止时间说清楚"],
+        "avoid": ["用“大家都这么做”来说服他们", "在他们专注时频繁打断"]
+      },
+      "growth": ["给想法设定一个可以落地的小目标", "主动关心身边人的感受", "接受“足够好”，不必事事完美再行动"]
+    },
+    "en": {
+      "title": "Principle Explorer",
+      "summary": "Driven by curiosity about \"why\", enjoys building precise logical models in the mind to understand how things work. Flexible, independent, and enjoys thinking for its own sake.",
+      "strengths": ["Strong analytical skills; spots contradictions and gaps", "Stays open to new theories and ideas", "Solves complex problems from first principles", "Calm and objective, not easily carried away by emotion"],
+      "challenges": ["Thinks a lot but may delay putting ideas into practice", "May overlook routine chores and deadlines", "Can be so precise that others find them hard to follow or picky", "Finds it hard to notice and respond to others' feelings"],
+      "work": "Suits work requiring deep analysis and independent thought, such as research, programming, theory or systems analysis. Prefers flexible, lightly managed settings; repetitive work and excessive rules drain them.",
+      "communication": "Enjoys discussing ideas and concepts and will probe details and definitions. May refine thoughts while speaking, so a little patience helps.",
+      "relationships": "Shows a humorous, curious side with familiar people. Values friends who can explore ideas deeply, though may need reminders to reach out.",
+      "getAlong": {
+        "do": ["Discuss the ideas themselves and welcome different views", "Give them room to think and be alone", "Make expectations and deadlines explicit"],
+        "avoid": ["Arguing \"everyone does it this way\"", "Interrupting them often while they focus"]
+      },
+      "growth": ["Give each idea a small, achievable next step", "Check in on how the people around you feel", "Accept \"good enough\" instead of waiting for perfect"]
+    }
+  },
+  "ENTJ": {
+    "zh-CN": {
+      "title": "目标统筹者",
+      "summary": "天生倾向于组织资源、推动事情向前，擅长把远景转化为可执行的计划。果断、自信，喜欢挑战和成就。",
+      "strengths": ["决策果断，推进力强", "善于组织团队和分配任务", "能看到长远目标并制定策略", "面对困难不轻易退缩"],
+      "challenges": ["可能过于强势，让别人感到压力", "对效率的追求可能忽略他人的感受", "不太愿意承认自己的不确定", "容易把工作放在生活其他方面之前"],
+      "work": "适合管理、创业、咨询、项目统筹等需要领导力和决策的工作。喜欢有挑战、有成长空间、以结果衡量的环境。",
+      "communication": "直接、有条理、以目标为导向。喜欢高效的讨论，会主动推动得出结论。",
+      "relationships": "对亲近的人很有责任感，愿意为他们规划和付出。表达关心的方式常常是帮对方变得更好，有时会被理解为“管得太多”。",
+      "getAlong": {
+        "do": ["清楚表达你的观点，必要时据理力争", "准时、守信、重视结果", "告诉他们你需要的是倾听还是建议"],
+        "avoid": ["含糊其辞或回避问题", "在没有准备的情况下讨论重要事情"]
+      },
+      "growth": ["在推动之前，先问问别人的想法和感受", "允许自己和他人有放慢脚步的时候", "把“我不确定”当作正常而不是软弱"]
+    },
+    "en": {
+      "title": "Goal Orchestrator",
+      "summary": "Naturally inclined to organize resources and move things forward, good at turning a vision into an actionable plan. Decisive, confident, and drawn to challenge and achievement.",
+      "strengths": ["Decisive with strong drive", "Good at organizing teams and assigning tasks", "Sees long-term goals and builds strategies", "Does not back down easily in difficulty"],
+      "challenges": ["May come on too strong and pressure others", "Pursuit of efficiency may overlook feelings", "Reluctant to admit uncertainty", "Tends to put work ahead of other parts of life"],
+      "work": "Suits management, entrepreneurship, consulting or program leadership that call for leadership and decisions. Thrives where there is challenge, growth and results-based evaluation.",
+      "communication": "Direct, structured and goal-oriented. Likes efficient discussions and pushes for conclusions.",
+      "relationships": "Feels strongly responsible for loved ones and plans and gives for them. Often shows care by helping others improve, which can be read as being controlling.",
+      "getAlong": {
+        "do": ["State your view clearly and argue your case when needed", "Be punctual, reliable and results-minded", "Tell them whether you want listening or advice"],
+        "avoid": ["Being vague or evasive", "Raising important matters without preparation"]
+      },
+      "growth": ["Ask about others' views and feelings before pushing ahead", "Allow yourself and others to slow down sometimes", "Treat \"I'm not sure\" as normal, not weak"]
+    }
+  },
+  "ENTP": {
+    "zh-CN": {
+      "title": "创意辩证者",
+      "summary": "思维敏捷、点子多，喜欢从不同角度挑战现有观点，享受辩论和探索新可能。适应力强，对新鲜事物充满热情。",
+      "strengths": ["反应快，善于即兴发挥", "能看到别人忽略的可能性", "敢于质疑常规，推动创新", "沟通能力强，善于说服"],
+      "challenges": ["新鲜感过后容易失去兴趣，虎头蛇尾", "爱辩论，可能无意中冒犯别人", "不太喜欢处理细节和例行事务", "可能同时开启太多项目"],
+      "work": "适合创业、咨询、产品、营销、研究等需要创新和应变的工作。喜欢多变、有挑战、能自由表达想法的环境，讨厌死板的流程。",
+      "communication": "热情、机智，喜欢用提问和反驳激发讨论。有时只是为了探讨而“唱反调”，并非真的反对。",
+      "relationships": "交友广泛，喜欢和能接住自己想法的人相处。在关系中带来新鲜感和乐趣，但需要注意持续的投入。",
+      "getAlong": {
+        "do": ["和他们一起讨论、碰撞想法", "理解他们的反驳多半是在探讨", "帮他们把想法落实到具体步骤"],
+        "avoid": ["用“一直都是这样”来回应他们的提议", "把辩论当成人身攻击"]
+      },
+      "growth": ["选一两件最重要的事坚持做完", "辩论前想一想对方的感受", "重视细节和后续跟进"]
+    },
+    "en": {
+      "title": "Idea Challenger",
+      "summary": "Quick-witted and full of ideas, enjoys challenging existing views from different angles and exploring new possibilities. Adaptable and enthusiastic about anything new.",
+      "strengths": ["Quick to react and good at improvising", "Sees possibilities others miss", "Questions conventions and drives innovation", "Communicates and persuades well"],
+      "challenges": ["May lose interest once the novelty fades", "Love of debate can unintentionally offend", "Dislikes details and routine tasks", "May start too many projects at once"],
+      "work": "Suits entrepreneurship, consulting, product, marketing or research roles that need innovation and adaptability. Prefers varied, challenging settings with room to voice ideas; dislikes rigid procedures.",
+      "communication": "Enthusiastic and witty; uses questions and counter-arguments to spark discussion. Sometimes plays devil's advocate just to explore, not to oppose.",
+      "relationships": "Has a wide circle and enjoys people who can keep up with their ideas. Brings freshness and fun, but needs to keep investing over time.",
+      "getAlong": {
+        "do": ["Brainstorm and debate ideas together", "Understand that their objections are usually exploration", "Help them turn ideas into concrete steps"],
+        "avoid": ["Answering their proposals with \"it has always been this way\"", "Taking a debate as a personal attack"]
+      },
+      "growth": ["Pick one or two key things and see them through", "Consider the other person's feelings before debating", "Value details and follow-up"]
+    }
+  },
+  "INFJ": {
+    "zh-CN": {
+      "title": "深意洞察者",
+      "summary": "善于洞察人和事背后的意义，心中常有一个关于“应该如何”的理想图景，并愿意安静而持久地为它努力。体贴、有原则，重视深层的联结。",
+      "strengths": ["能敏锐地理解他人的想法和需要", "有远见，能把价值观和长远目标结合起来", "做事认真、有责任感", "善于用文字或一对一交流打动人"],
+      "challenges": ["对自己和他人期望过高，容易失望", "习惯压抑自己的需要，累积疲惫", "面对冲突时倾向回避", "可能过于在意事情是否“有意义”而难以开始"],
+      "work": "适合咨询、教育、写作、设计、公益、人力资源等能帮助他人成长或实现理想的工作。喜欢安静、有意义、价值观一致的环境。",
+      "communication": "温和、有深度，喜欢一对一的真诚交流。通常会先倾听，再表达经过思考的观点。",
+      "relationships": "对亲近的人非常投入，重视真诚和相互理解。需要独处时间来恢复，有时会突然“消失”一阵。",
+      "getAlong": {
+        "do": ["真诚地交流，分享真实的想法和感受", "尊重他们需要独处的时间", "主动肯定他们的付出"],
+        "avoid": ["表面敷衍或言行不一", "在众人面前批评他们"]
+      },
+      "growth": ["把自己的需要说出来，而不是等别人察觉", "允许事情不完美，也允许自己休息", "面对分歧时练习直接沟通"]
+    },
+    "en": {
+      "title": "Meaning Seeker",
+      "summary": "Perceptive about the meaning behind people and events, often holds an ideal picture of how things should be and works for it quietly and persistently. Considerate, principled, and values deep connection.",
+      "strengths": ["Understands others' thoughts and needs with sensitivity", "Visionary, linking values with long-term goals", "Conscientious and responsible", "Moves people through writing or one-on-one conversation"],
+      "challenges": ["High expectations of self and others can lead to disappointment", "Tends to suppress own needs until exhausted", "Tends to avoid conflict", "May struggle to start unless something feels meaningful"],
+      "work": "Suits counseling, teaching, writing, design, non-profit or people development work that helps others grow or serves an ideal. Prefers calm, meaningful settings with shared values.",
+      "communication": "Gentle and thoughtful; prefers sincere one-on-one conversations. Usually listens first, then shares a considered view.",
+      "relationships": "Deeply committed to close ones and values sincerity and mutual understanding. Needs time alone to recover and may occasionally \"disappear\" for a while.",
+      "getAlong": {
+        "do": ["Communicate sincerely and share real thoughts and feelings", "Respect their need for time alone", "Acknowledge what they contribute"],
+        "avoid": ["Being superficial or inconsistent", "Criticizing them in front of others"]
+      },
+      "growth": ["Say what you need instead of waiting to be noticed", "Allow things, and yourself, to be imperfect and to rest", "Practice addressing disagreements directly"]
+    }
+  },
+  "INFP": {
+    "zh-CN": {
+      "title": "价值守护者",
+      "summary": "内心有一套真诚而坚定的价值观，追求真实地做自己，并希望自己做的事有意义。富有想象力和同理心，常被理想和美好事物打动。",
+      "strengths": ["真诚、包容，能理解不同的人", "富有创造力和想象力", "对认同的事情投入而执着", "善于用文字、艺术等方式表达内心"],
+      "challenges": ["可能过于理想化，对现实感到失望", "对批评比较敏感", "在实际事务和计划执行上容易拖延", "不愿冲突，可能把不满藏在心里"],
+      "work": "适合写作、艺术、设计、心理、教育、公益等能表达自我或帮助他人的工作。需要价值观契合、允许自主和创造的环境。",
+      "communication": "温和、真诚，喜欢深入而有意义的对话。熟悉之前比较安静，表达观点时会注意措辞。",
+      "relationships": "重视真诚和深度的连接，对认定的人非常忠诚。需要被理解和接纳，而不是被评判。",
+      "getAlong": {
+        "do": ["认真倾听，接纳他们的感受", "欣赏他们的创意和理想", "用温和的方式给出建议"],
+        "avoid": ["嘲笑他们在意的事情", "用强硬命令的方式要求他们"]
+      },
+      "growth": ["把理想拆成可以马上开始的小行动", "把批评当作信息，而不是对自己的否定", "学会适时表达不满，而不是独自承受"]
+    },
+    "en": {
+      "title": "Values Keeper",
+      "summary": "Holds a sincere and firm set of inner values, seeks to be genuinely themselves and wants their work to mean something. Imaginative and empathetic, often moved by ideals and beauty.",
+      "strengths": ["Sincere and accepting; understands many kinds of people", "Creative and imaginative", "Committed and persistent about what they believe in", "Expresses inner life through writing, art and similar means"],
+      "challenges": ["Can be overly idealistic and disappointed by reality", "Fairly sensitive to criticism", "May procrastinate on practical tasks and plans", "Avoids conflict and may keep frustrations inside"],
+      "work": "Suits writing, art, design, psychology, education or non-profit work that allows self-expression or helping others. Needs aligned values, autonomy and room to create.",
+      "communication": "Gentle and sincere; prefers deep, meaningful conversation. Quiet until comfortable and chooses words carefully.",
+      "relationships": "Values sincerity and deep connection and is very loyal. Needs to be understood and accepted rather than judged.",
+      "getAlong": {
+        "do": ["Listen carefully and accept their feelings", "Appreciate their creativity and ideals", "Offer suggestions gently"],
+        "avoid": ["Mocking what they care about", "Making demands through harsh orders"]
+      },
+      "growth": ["Break ideals into small actions you can start now", "Treat criticism as information, not rejection", "Voice frustration in time rather than carrying it alone"]
+    }
+  },
+  "ENFJ": {
+    "zh-CN": {
+      "title": "成长引导者",
+      "summary": "关注人与人之间的连接，擅长发现他人的潜力并激励大家朝共同的目标前进。热情、有感染力，乐于承担责任。",
+      "strengths": ["善于沟通和鼓舞人心", "能敏锐察觉团队氛围和他人需要", "有组织能力，能把人凝聚在一起", "真心希望别人变得更好"],
+      "challenges": ["可能过度承担他人的问题，忽略自己", "很在意别人的评价", "有时会把自己的期望投射到别人身上", "面对冷漠或冲突时容易受伤"],
+      "work": "适合教育、培训、管理、人力资源、咨询、公共事务等以人为中心的工作。喜欢合作、有使命感、能看到他人成长的环境。",
+      "communication": "温暖、积极、表达力强，善于根据对象调整说话方式。喜欢面对面交流和团队讨论。",
+      "relationships": "对朋友和家人非常照顾，常常是大家的支持者。希望关系和谐，也期待对方同样投入。",
+      "getAlong": {
+        "do": ["表达你对他们付出的感谢", "坦诚告诉他们你真实的需要", "一起讨论共同的目标和计划"],
+        "avoid": ["冷淡回应他们的关心", "背后议论而不当面沟通"]
+      },
+      "growth": ["分清哪些是别人的课题，不必都扛在自己肩上", "给自己留出不被需要的时间", "接受不是每个人都会认同你"]
+    },
+    "en": {
+      "title": "Growth Guide",
+      "summary": "Attentive to connections between people, good at spotting others' potential and inspiring everyone toward shared goals. Warm, engaging and willing to take responsibility.",
+      "strengths": ["Communicates and inspires well", "Senses team mood and others' needs", "Organizes and brings people together", "Genuinely wants others to grow"],
+      "challenges": ["May take on others' problems and neglect self", "Cares a lot about others' opinions", "Sometimes projects own expectations onto others", "Easily hurt by coldness or conflict"],
+      "work": "Suits people-centered work such as teaching, training, management, HR, counseling or public affairs. Thrives in collaborative, mission-driven settings where growth is visible.",
+      "communication": "Warm, positive and expressive; adapts style to the listener. Enjoys face-to-face talks and team discussions.",
+      "relationships": "Very caring toward friends and family, often everyone's supporter. Wants harmony and hopes others invest equally.",
+      "getAlong": {
+        "do": ["Express appreciation for what they do", "Tell them honestly what you need", "Discuss shared goals and plans together"],
+        "avoid": ["Responding coldly to their care", "Talking behind their back instead of directly"]
+      },
+      "growth": ["Separate others' problems from your own responsibilities", "Keep time for yourself when nobody needs you", "Accept that not everyone will agree with you"]
+    }
+  },
+  "ENFP": {
+    "zh-CN": {
+      "title": "可能性激发者",
+      "summary": "对人和世界充满好奇，总能看到新的可能，并用热情感染身边的人。重视真诚与自由，喜欢探索有意义的新方向。",
+      "strengths": ["热情、乐观，容易与人建立联系", "想象力丰富，点子多", "善于发现他人的优点并给予鼓励", "适应变化，敢于尝试"],
+      "challenges": ["兴趣转移快，难以坚持到底", "不喜欢细节和重复，容易拖延", "情绪起伏可能较大", "答应太多事情，精力分散"],
+      "work": "适合创意、传媒、教育、咨询、市场、社会创新等需要灵感和人际互动的工作。喜欢自由、有变化、价值观认同的环境。",
+      "communication": "表达生动、热情，话题跳跃，喜欢分享想法和故事。重视对话中的情感共鸣。",
+      "relationships": "交友广泛，也重视少数知心朋友。在关系中带来温暖和惊喜，需要被理解而不是被约束。",
+      "getAlong": {
+        "do": ["回应他们的热情，一起探索新想法", "给他们自由和选择的空间", "温和地帮他们聚焦和收尾"],
+        "avoid": ["一味泼冷水", "用过多规则和控制限制他们"]
+      },
+      "growth": ["给每个新计划设定一个完成节点", "学会说“不”，保护自己的精力", "在情绪高低时，给自己一点缓冲再做决定"]
+    },
+    "en": {
+      "title": "Possibility Sparker",
+      "summary": "Curious about people and the world, always sees new possibilities and spreads enthusiasm to others. Values sincerity and freedom and likes exploring meaningful new directions.",
+      "strengths": ["Enthusiastic and optimistic; connects easily with people", "Imaginative and full of ideas", "Spots others' strengths and encourages them", "Adapts to change and dares to try"],
+      "challenges": ["Interests shift quickly, making follow-through hard", "Dislikes details and repetition; may procrastinate", "Mood can swing noticeably", "Takes on too much and spreads energy thin"],
+      "work": "Suits creative, media, teaching, consulting, marketing or social innovation roles that need inspiration and interaction. Prefers freedom, variety and shared values.",
+      "communication": "Vivid and enthusiastic, hopping between topics and sharing ideas and stories. Values emotional resonance in conversation.",
+      "relationships": "Has a wide circle and a few close confidants. Brings warmth and surprise to relationships and needs understanding rather than restriction.",
+      "getAlong": {
+        "do": ["Match their enthusiasm and explore ideas together", "Give them freedom and choices", "Gently help them focus and wrap things up"],
+        "avoid": ["Constantly pouring cold water on ideas", "Restricting them with many rules and controls"]
+      },
+      "growth": ["Give every new plan a finish point", "Learn to say no to protect your energy", "Give yourself a buffer before deciding when emotions run high or low"]
+    }
+  },
+  "ISTJ": {
+    "zh-CN": {
+      "title": "秩序践行者",
+      "summary": "踏实、可靠，重视责任和承诺，习惯依据经验和事实做事，把事情一件件按规矩做好。是团队中值得信赖的“定心丸”。",
+      "strengths": ["认真负责，说到做到", "注重细节，做事准确", "有条理，善于建立和维护制度", "冷静务实，遇事不慌"],
+      "challenges": ["面对突然的变化需要较长适应时间", "可能显得固执或保守", "不太擅长表达情感", "对不守规矩的人比较严格"],
+      "work": "适合财务、审计、行政、工程、法律、质量管理等需要严谨和稳定的工作。喜欢职责清晰、流程明确、能看到实际成果的环境。",
+      "communication": "就事论事，说话简洁、实在。喜欢具体的信息和明确的安排，不喜欢模糊的说法。",
+      "relationships": "用实际行动表达关心，比如守时、记得约定、默默帮忙。重视长期、稳定、相互信任的关系。",
+      "getAlong": {
+        "do": ["提前沟通计划，信守承诺", "提供具体、清楚的信息", "认可他们的可靠和付出"],
+        "avoid": ["临时变卦或随意放鸽子", "只谈空泛的想法而没有具体方案"]
+      },
+      "growth": ["对新方法保持一点好奇", "试着说出自己的感受，而不只是做事", "允许别人用不同的方式把事情做好"]
+    },
+    "en": {
+      "title": "Steady Implementer",
+      "summary": "Grounded and reliable, values responsibility and commitment, and works from experience and facts to get things done properly one by one. The dependable anchor of a team.",
+      "strengths": ["Conscientious; keeps their word", "Detail-oriented and accurate", "Organized; builds and maintains systems", "Calm and practical under pressure"],
+      "challenges": ["Needs time to adjust to sudden changes", "May seem stubborn or conservative", "Finds it hard to express emotions", "Can be strict with people who don't follow the rules"],
+      "work": "Suits finance, auditing, administration, engineering, law or quality management where rigor and stability matter. Prefers clear duties, defined processes and visible results.",
+      "communication": "Matter-of-fact, concise and down to earth. Likes concrete information and clear arrangements; dislikes vague talk.",
+      "relationships": "Shows care through actions such as punctuality, remembering commitments and quiet help. Values long-term, stable, trusting relationships.",
+      "getAlong": {
+        "do": ["Share plans in advance and keep promises", "Give concrete, clear information", "Acknowledge their reliability and effort"],
+        "avoid": ["Changing plans or cancelling casually", "Talking only in vague ideas without a concrete plan"]
+      },
+      "growth": ["Stay a little curious about new methods", "Try putting feelings into words, not only actions", "Let others do things well in their own way"]
+    }
+  },
+  "ISFJ": {
+    "zh-CN": {
+      "title": "细心照护者",
+      "summary": "温和、体贴，默默关注身边人的需要，用细致和可靠的方式照顾大家。重视传统、责任和稳定的关系。",
+      "strengths": ["细心体贴，记得别人的喜好和需要", "责任心强，做事踏实可靠", "耐心、有包容心", "善于营造温暖安心的氛围"],
+      "challenges": ["不太会拒绝别人，容易过度付出", "很少表达自己的需要", "面对变化和冲突会感到不安", "可能把委屈藏在心里"],
+      "work": "适合医护、教育、行政、客服、社工等需要细致和关怀的工作。喜欢稳定、和谐、职责明确的环境。",
+      "communication": "温和、礼貌，善于倾听。说话时会考虑对方感受，不太愿意直接说“不”。",
+      "relationships": "对家人朋友非常忠诚，常常是默默照顾大家的人。希望自己的付出被看见和珍惜。",
+      "getAlong": {
+        "do": ["主动表达感谢，注意他们的付出", "温和地询问他们自己的需要", "提前告知变化，给他们准备时间"],
+        "avoid": ["把他们的帮助视为理所当然", "用尖锐的方式批评他们"]
+      },
+      "growth": ["练习说“不”，照顾好自己", "把自己的需要和感受直接说出来", "试着把变化看作新的机会"]
+    },
+    "en": {
+      "title": "Attentive Caretaker",
+      "summary": "Gentle and considerate, quietly attentive to others' needs, caring for people in careful and reliable ways. Values tradition, responsibility and stable relationships.",
+      "strengths": ["Attentive; remembers others' preferences and needs", "Responsible, steady and reliable", "Patient and accepting", "Creates a warm, reassuring atmosphere"],
+      "challenges": ["Finds it hard to say no and may over-give", "Rarely expresses own needs", "Feels uneasy with change and conflict", "May keep hurt feelings inside"],
+      "work": "Suits healthcare, teaching, administration, customer support or social work that needs care and attention to detail. Prefers stable, harmonious settings with clear duties.",
+      "communication": "Gentle and polite; a good listener. Considers others' feelings and finds it hard to say a direct no.",
+      "relationships": "Very loyal to family and friends, often the one quietly taking care of everyone. Hopes their efforts are seen and appreciated.",
+      "getAlong": {
+        "do": ["Say thank you and notice their efforts", "Gently ask about their own needs", "Announce changes early to give them time"],
+        "avoid": ["Taking their help for granted", "Criticizing them harshly"]
+      },
+      "growth": ["Practice saying no and look after yourself", "State your needs and feelings directly", "Try seeing change as a new opportunity"]
+    }
+  },
+  "ESTJ": {
+    "zh-CN": {
+      "title": "组织推动者",
+      "summary": "务实、果断，擅长建立秩序、组织人员并把事情高效地落实。重视规则、责任和看得见的成果。",
+      "strengths": ["执行力强，能把计划落地", "组织协调能力出色", "说话直接，标准清晰", "有责任感，值得依靠"],
+      "challenges": ["可能过于看重规则而缺少弹性", "对不同做法容易不耐烦", "表达方式有时显得强硬", "可能忽略他人的情绪需要"],
+      "work": "适合管理、运营、项目执行、行政、销售管理等需要组织和决策的工作。喜欢结构清晰、分工明确、以结果衡量的环境。",
+      "communication": "直截了当，重视事实和效率。喜欢明确的分工和时间表，讨论时会推动尽快做出决定。",
+      "relationships": "对家人朋友有强烈的责任感，常常承担组织和照顾的角色。用实际行动表达关心。",
+      "getAlong": {
+        "do": ["清楚、直接地沟通", "遵守约定和时间", "用事实说明你的不同意见"],
+        "avoid": ["拖延或敷衍了事", "只抱怨不提解决方案"]
+      },
+      "growth": ["在坚持标准之外，多听听不同的做法", "表达意见时注意语气", "关心事情之外，也关心人的感受"]
+    },
+    "en": {
+      "title": "Practical Organizer",
+      "summary": "Practical and decisive, good at establishing order, organizing people and getting things done efficiently. Values rules, responsibility and tangible results.",
+      "strengths": ["Strong execution; turns plans into reality", "Excellent at organizing and coordinating", "Direct with clear standards", "Responsible and dependable"],
+      "challenges": ["May value rules over flexibility", "Can be impatient with different approaches", "Delivery can come across as forceful", "May overlook others' emotional needs"],
+      "work": "Suits management, operations, project delivery, administration or sales management that need organization and decisions. Prefers clear structure, defined roles and results-based evaluation.",
+      "communication": "Straightforward and fact- and efficiency-focused. Likes clear roles and timelines and pushes discussions toward decisions.",
+      "relationships": "Feels responsible for family and friends and often takes on the organizer role. Shows care through practical action.",
+      "getAlong": {
+        "do": ["Communicate clearly and directly", "Keep agreements and deadlines", "Back disagreements with facts"],
+        "avoid": ["Delaying or doing things half-heartedly", "Complaining without proposing a solution"]
+      },
+      "growth": ["Beyond your standards, listen to other ways of doing things", "Mind your tone when giving opinions", "Care about people's feelings as well as the task"]
+    }
+  },
+  "ESFJ": {
+    "zh-CN": {
+      "title": "关系维系者",
+      "summary": "热心、友善，关注大家是否相处融洽，乐于组织和照顾身边的人。重视传统、礼节和集体的归属感。",
+      "strengths": ["热情周到，善于照顾他人", "能营造和谐、温暖的集体氛围", "责任心强，做事细致", "善于记住和维护人际关系"],
+      "challenges": ["很在意别人的看法和认可", "面对批评或冲突容易难过", "可能为了和谐而压抑真实想法", "对不按常规的事物比较难接受"],
+      "work": "适合教育、医护、行政、活动策划、客户关系、人事等以人为中心、需要协调的工作。喜欢合作、友好、有明确规范的环境。",
+      "communication": "亲切、健谈，注意礼貌和对方感受。喜欢面对面交流，愿意主动关心别人的近况。",
+      "relationships": "是朋友圈里的“联络员”，记得节日和纪念日，乐于为大家张罗。希望关系稳定、相互关照。",
+      "getAlong": {
+        "do": ["回应他们的关心，表达感谢", "参与他们组织的活动", "提意见时先肯定再建议"],
+        "avoid": ["冷淡或忽视他们的付出", "当众让他们难堪"]
+      },
+      "growth": ["分清别人的评价和自己的价值", "适当说出不同意见，冲突不一定破坏关系", "对新的做法和想法保持开放"]
+    },
+    "en": {
+      "title": "Community Connector",
+      "summary": "Warm-hearted and friendly, cares whether everyone gets along and enjoys organizing and looking after others. Values tradition, courtesy and a sense of belonging.",
+      "strengths": ["Warm and thoughtful; takes good care of others", "Creates a harmonious, welcoming group atmosphere", "Responsible and attentive to detail", "Remembers and maintains relationships well"],
+      "challenges": ["Cares a lot about others' opinions and approval", "Easily upset by criticism or conflict", "May hide true thoughts to keep the peace", "Finds unconventional things harder to accept"],
+      "work": "Suits people-centered coordination roles such as teaching, healthcare, administration, event planning, client relations or HR. Prefers cooperative, friendly settings with clear norms.",
+      "communication": "Friendly and talkative, mindful of manners and feelings. Enjoys face-to-face contact and readily asks how others are doing.",
+      "relationships": "The connector of a friend group who remembers holidays and anniversaries and loves organizing for everyone. Hopes for stable, mutually caring relationships.",
+      "getAlong": {
+        "do": ["Respond to their care and say thanks", "Take part in what they organize", "Affirm before you suggest changes"],
+        "avoid": ["Being cold or ignoring their efforts", "Embarrassing them in public"]
+      },
+      "growth": ["Separate others' opinions from your own worth", "Voice disagreement sometimes; conflict doesn't have to end a relationship", "Stay open to new ways and ideas"]
+    }
+  },
+  "ISTP": {
+    "zh-CN": {
+      "title": "冷静实干者",
+      "summary": "冷静、务实，喜欢动手弄清事物如何运作，擅长在现场灵活地解决具体问题。重视自由和独立，话不多但很有行动力。",
+      "strengths": ["临危不乱，能快速找到实际解决办法", "动手能力强，善于使用工具和技术", "客观冷静，分析问题直接到位", "灵活、适应力强"],
+      "challenges": ["不太喜欢长期规划和承诺", "可能显得冷漠或难以捉摸", "对规则和例行公事缺乏耐心", "不太习惯表达情感"],
+      "work": "适合工程、技术、维修、急救、运动、数据分析等需要动手和即时判断的工作。喜欢自主、灵活、能看到实际效果的环境。",
+      "communication": "简短、直接、务实，更愿意用行动而不是言语表达。讨论具体问题时会变得投入。",
+      "relationships": "重视个人空间，喜欢和朋友一起做事而不是长时间聊天。关心往往体现在实际帮助上。",
+      "getAlong": {
+        "do": ["给他们自由和空间", "一起参与具体的活动", "说话简洁直接"],
+        "avoid": ["过度追问他们的感受", "用过多规矩和安排约束他们"]
+      },
+      "growth": ["对重要的人和事做出长期承诺", "偶尔说出自己的感受", "在行动前多考虑长远影响"]
+    },
+    "en": {
+      "title": "Calm Troubleshooter",
+      "summary": "Calm and practical, likes hands-on understanding of how things work and excels at solving concrete problems on the spot. Values freedom and independence; says little but acts decisively.",
+      "strengths": ["Stays cool in a crisis and finds practical fixes fast", "Strong with hands, tools and technology", "Objective and direct in analysis", "Flexible and adaptable"],
+      "challenges": ["Dislikes long-term planning and commitments", "May seem aloof or hard to read", "Impatient with rules and routine", "Not used to expressing feelings"],
+      "work": "Suits engineering, technical, repair, emergency, sports or data analysis work involving hands-on skills and quick judgment. Prefers autonomy, flexibility and visible results.",
+      "communication": "Brief, direct and practical; prefers action to words. Becomes engaged when discussing concrete problems.",
+      "relationships": "Values personal space and prefers doing things with friends over long talks. Care shows up as practical help.",
+      "getAlong": {
+        "do": ["Give them freedom and space", "Do concrete activities together", "Keep it short and direct"],
+        "avoid": ["Pressing them about their feelings", "Restricting them with many rules and schedules"]
+      },
+      "growth": ["Make long-term commitments to important people and goals", "Share your feelings now and then", "Consider long-term effects before acting"]
+    }
+  },
+  "ISFP": {
+    "zh-CN": {
+      "title": "感受体验者",
+      "summary": "温和、敏感，忠于内心的感受和价值，善于在当下发现美。喜欢以自己的节奏生活，用行动和作品而不是言语表达自己。",
+      "strengths": ["审美敏锐，富有艺术感", "真诚友善，尊重他人的不同", "活在当下，懂得享受生活", "灵活随和，适应力强"],
+      "challenges": ["不太喜欢长远规划", "面对冲突倾向退让或回避", "对批评比较敏感", "可能低估自己的能力"],
+      "work": "适合设计、艺术、手工、护理、动物或自然相关的工作，以及能发挥审美和动手能力的岗位。喜欢自由、友好、不过度竞争的环境。",
+      "communication": "安静、温和，更习惯通过行动和细节表达关心。熟悉之后会分享很多独特的感受。",
+      "relationships": "对亲近的人体贴而忠诚，重视彼此的自由和尊重。需要被温柔地对待和理解。",
+      "getAlong": {
+        "do": ["尊重他们的节奏和选择", "欣赏他们的审美和创作", "温和、具体地给出反馈"],
+        "avoid": ["强迫他们快速做决定", "当众批评或施压"]
+      },
+      "growth": ["为想做的事设定一个小计划", "在冲突中说出自己的立场", "相信并展示自己的能力"]
+    },
+    "en": {
+      "title": "Gentle Experiencer",
+      "summary": "Gentle and sensitive, faithful to inner feelings and values, and good at finding beauty in the moment. Likes living at their own pace and expresses themselves through actions and creations rather than words.",
+      "strengths": ["Keen aesthetic and artistic sense", "Sincere, kind and respectful of differences", "Lives in the moment and knows how to enjoy life", "Easygoing and adaptable"],
+      "challenges": ["Not fond of long-term planning", "Tends to yield or avoid in conflict", "Fairly sensitive to criticism", "May underestimate own abilities"],
+      "work": "Suits design, art, crafts, caregiving, work with animals or nature, and roles using aesthetics and practical skills. Prefers free, friendly settings without heavy competition.",
+      "communication": "Quiet and gentle; shows care through actions and small details. Shares many unique impressions once comfortable.",
+      "relationships": "Considerate and loyal to close ones; values mutual freedom and respect. Needs gentle treatment and understanding.",
+      "getAlong": {
+        "do": ["Respect their pace and choices", "Appreciate their taste and creations", "Give gentle, specific feedback"],
+        "avoid": ["Forcing quick decisions", "Criticizing or pressuring them in public"]
+      },
+      "growth": ["Set a small plan for something you want to do", "State your position in conflicts", "Trust and show your abilities"]
+    }
+  },
+  "ESTP": {
+    "zh-CN": {
+      "title": "现场行动者",
+      "summary": "精力充沛、反应敏捷，喜欢直接投入行动，在变化和挑战中如鱼得水。务实、直率，善于抓住眼前的机会。",
+      "strengths": ["行动力强，敢于冒险", "观察敏锐，能快速读懂现场情况", "务实，善于解决眼前的问题", "风趣、有感染力"],
+      "challenges": ["可能冲动，不太考虑长远后果", "对理论和长期规划缺乏耐心", "容易对重复的事情感到厌倦", "有时说话太直接"],
+      "work": "适合销售、创业、急救、体育、谈判、现场管理等节奏快、需要即时判断的工作。喜欢充满变化、能看到即时成果的环境。",
+      "communication": "直接、幽默、务实，喜欢就具体的事情快速交流，不喜欢绕弯子和空谈。",
+      "relationships": "喜欢和朋友一起体验新鲜有趣的事，能带动气氛。在关系中重视真实和乐趣。",
+      "getAlong": {
+        "do": ["直接说重点，保持轻松", "一起行动和体验", "用具体例子而不是抽象道理沟通"],
+        "avoid": ["长篇说教", "用过多规划束缚他们"]
+      },
+      "growth": ["行动前花一点时间想想长远影响", "坚持完成需要耐心的事情", "注意说话方式对别人的影响"]
+    },
+    "en": {
+      "title": "Hands-on Responder",
+      "summary": "Energetic and quick to react, likes jumping straight into action and thrives on change and challenge. Practical and straightforward, good at seizing opportunities.",
+      "strengths": ["Action-oriented and willing to take risks", "Observant; reads situations quickly", "Practical problem-solver in the moment", "Fun and engaging"],
+      "challenges": ["May be impulsive and overlook long-term effects", "Impatient with theory and long-range planning", "Bored by repetition", "Can be too blunt at times"],
+      "work": "Suits fast-paced roles requiring quick judgment, such as sales, entrepreneurship, emergency response, sports, negotiation or on-site management. Prefers variety and immediate results.",
+      "communication": "Direct, humorous and practical; likes quick exchanges about concrete matters and dislikes roundabout talk.",
+      "relationships": "Enjoys new and fun experiences with friends and livens up a group. Values authenticity and fun in relationships.",
+      "getAlong": {
+        "do": ["Get to the point and keep it light", "Do things and have experiences together", "Use concrete examples, not abstract principles"],
+        "avoid": ["Long lectures", "Tying them down with excessive planning"]
+      },
+      "growth": ["Take a moment to consider long-term effects before acting", "Stick with tasks that need patience", "Notice how your words land on others"]
+    }
+  },
+  "ESFP": {
+    "zh-CN": {
+      "title": "热情表现者",
+      "summary": "开朗、热情，享受当下的生活，善于给身边的人带来快乐。观察细腻，对人和环境都很敏感，乐于分享和互动。",
+      "strengths": ["乐观开朗，感染力强", "善于察觉别人的需要并及时帮忙", "灵活，适应新环境快", "懂得享受生活，也让别人享受"],
+      "challenges": ["可能避开令人不愉快的话题或长期问题", "做计划和坚持执行比较困难", "容易被眼前的诱惑分心", "对批评比较在意"],
+      "work": "适合表演、销售、服务、活动、教育、护理等与人互动、充满活力的工作。喜欢热闹、友好、多变的环境。",
+      "communication": "生动、热情、健谈，喜欢用故事和亲身经历交流。注重当下的气氛和互动。",
+      "relationships": "朋友多，喜欢一起玩乐和分享。对朋友慷慨、体贴，希望关系轻松而真诚。",
+      "getAlong": {
+        "do": ["一起参与有趣的活动", "表达欣赏和喜爱", "用轻松的方式讨论严肃话题"],
+        "avoid": ["过于严肃的批评", "长时间只谈抽象和未来"]
+      },
+      "growth": ["为重要目标做一点长期规划", "勇于面对不愉快但必要的事情", "给自己留出安静反思的时间"]
+    },
+    "en": {
+      "title": "Lively Performer",
+      "summary": "Outgoing and enthusiastic, enjoys life in the moment and brings joy to those around them. Observant and attuned to people and surroundings, loves sharing and interacting.",
+      "strengths": ["Optimistic and highly engaging", "Notices others' needs and helps promptly", "Flexible; adapts quickly to new settings", "Knows how to enjoy life and helps others do so"],
+      "challenges": ["May avoid unpleasant topics or long-term problems", "Finds planning and sticking with plans hard", "Easily distracted by immediate temptations", "Fairly sensitive to criticism"],
+      "work": "Suits lively, interactive work such as performing, sales, service, events, teaching or caregiving. Prefers busy, friendly, varied settings.",
+      "communication": "Vivid, warm and talkative; likes sharing stories and personal experiences. Pays attention to the mood and interaction in the moment.",
+      "relationships": "Has many friends and loves having fun and sharing together. Generous and caring, hopes for relationships that are light and sincere.",
+      "getAlong": {
+        "do": ["Join in fun activities together", "Express appreciation and affection", "Raise serious topics in a relaxed way"],
+        "avoid": ["Overly harsh criticism", "Talking only about abstractions and the distant future"]
+      },
+      "growth": ["Do a little long-term planning for important goals", "Face unpleasant but necessary tasks", "Keep some quiet time for reflection"]
+    }
+  }
+}

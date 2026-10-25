@@ -1,0 +1,87 @@
+{
+  "kind": "wellbeing",
+  "instrument": "gad7",
+  "version": "1.0.0",
+  "status": "published",
+  "shortName": { "zh-CN": "GAD-7", "en": "GAD-7" },
+  "title": { "zh-CN": "GAD-7 焦虑症状自评", "en": "GAD-7 Anxiety Symptoms" },
+  "description": {
+    "zh-CN": "广泛性焦虑量表（GAD-7），国际上广泛使用的焦虑症状筛查量表，询问过去两周内 7 种常见焦虑症状出现的频率。",
+    "en": "The Generalized Anxiety Disorder-7, a widely used screener that asks how often seven common anxiety symptoms occurred over the last two weeks."
+  },
+  "instructions": {
+    "zh-CN": "在过去的两周里，你有多少时间受到以下问题的困扰？",
+    "en": "Over the last 2 weeks, how often have you been bothered by the following problems?"
+  },
+  "license": "Public domain",
+  "licenseNote": {
+    "zh-CN": "GAD-7 由 Robert L. Spitzer、Kurt Kroenke、Janet B.W. Williams、Bernd Löwe 等人在 Pfizer 教育资助下编制，属于公有领域，复制、翻译、展示和分发均无需许可（见 phqscreeners.com 使用手册）。",
+    "en": "The GAD-7 was developed by Drs. Robert L. Spitzer, Kurt Kroenke, Janet B.W. Williams, Bernd Löwe and colleagues with an educational grant from Pfizer Inc. It is in the public domain; no permission is required to reproduce, translate, display or distribute (PHQ instruction manual, phqscreeners.com)."
+  },
+  "source": {
+    "zh-CN": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med 2006;166:1092-1097。分级依据官方使用手册。中文措辞采用国内研究中广泛使用的简体中文版本，尚未与官方中文译本逐字核对。",
+    "en": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med 2006;166:1092-1097. Severity bands follow the official instruction manual."
+  },
+  "citation": "Spitzer RL, Kroenke K, Williams JBW, Löwe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006;166(10):1092-1097.",
+  "options": [
+    { "value": 0, "label": { "zh-CN": "完全不会", "en": "Not at all" } },
+    { "value": 1, "label": { "zh-CN": "好几天", "en": "Several days" } },
+    { "value": 2, "label": { "zh-CN": "一半以上的天数", "en": "More than half the days" } },
+    { "value": 3, "label": { "zh-CN": "几乎每天", "en": "Nearly every day" } }
+  ],
+  "items": [
+    { "id": "GAD7-01", "text": { "zh-CN": "感觉紧张、焦虑或急切", "en": "Feeling nervous, anxious, or on edge" } },
+    { "id": "GAD7-02", "text": { "zh-CN": "不能够停止或控制担忧", "en": "Not being able to stop or control worrying" } },
+    { "id": "GAD7-03", "text": { "zh-CN": "对各种各样的事情担忧过多", "en": "Worrying too much about different things" } },
+    { "id": "GAD7-04", "text": { "zh-CN": "很难放松下来", "en": "Trouble relaxing" } },
+    { "id": "GAD7-05", "text": { "zh-CN": "由于不安而无法静坐", "en": "Being so restless that it is hard to sit still" } },
+    { "id": "GAD7-06", "text": { "zh-CN": "变得容易烦恼或急躁", "en": "Becoming easily annoyed or irritable" } },
+    { "id": "GAD7-07", "text": { "zh-CN": "感到似乎将有可怕的事情发生而害怕", "en": "Feeling afraid, as if something awful might happen" } }
+  ],
+  "scoring": {
+    "engine": "sum@1",
+    "multiplier": 1,
+    "higherIsBetter": false,
+    "bands": [
+      {
+        "key": "minimal", "min": 0, "max": 4, "level": "minimal",
+        "label": { "zh-CN": "极轻微", "en": "Minimal" },
+        "summary": { "zh-CN": "过去两周里，焦虑相关的症状很少或几乎没有。", "en": "Few or no anxiety symptoms over the last two weeks." },
+        "suggestions": [
+          { "zh-CN": "继续保持让你感到放松和稳定的习惯。", "en": "Keep the habits that help you feel calm and steady." },
+          { "zh-CN": "状态有变化时，可以过一段时间再做一次自评作比较。", "en": "If things change, take this check-in again later to compare." }
+        ]
+      },
+      {
+        "key": "mild", "min": 5, "max": 9, "level": "mild",
+        "label": { "zh-CN": "轻度", "en": "Mild" },
+        "summary": { "zh-CN": "存在一些焦虑相关的症状，程度较轻。面对压力时出现担忧和紧张是很常见的反应。", "en": "Some anxiety symptoms at a mild level — worry and tension are common responses to stress." },
+        "suggestions": [
+          { "zh-CN": "试试放慢呼吸、散步或伸展等简单的放松方法。", "en": "Try simple ways to unwind, such as slow breathing, a walk or stretching." },
+          { "zh-CN": "把担心的事写下来，区分哪些可以行动、哪些暂时无法控制。", "en": "Write worries down and separate what you can act on from what you cannot control right now." },
+          { "zh-CN": "减少咖啡因和睡前使用手机的时间，可能有助于放松。", "en": "Cutting down on caffeine and screens before bed may help." }
+        ]
+      },
+      {
+        "key": "moderate", "min": 10, "max": 14, "level": "moderate", "seekHelp": true,
+        "label": { "zh-CN": "中度", "en": "Moderate" },
+        "summary": { "zh-CN": "焦虑相关的症状已经比较明显。官方手册建议把 10 分作为需要进一步评估的参考线。", "en": "Anxiety symptoms are fairly noticeable. The official manual recommends 10 or more as the point for further evaluation." },
+        "suggestions": [
+          { "zh-CN": "建议和医生、心理咨询师或其他专业人士聊一聊，获得进一步的评估。", "en": "Consider talking with a doctor, counsellor or other professional for a proper assessment." },
+          { "zh-CN": "把感受告诉一位信任的人。", "en": "Share how you feel with someone you trust." },
+          { "zh-CN": "规律的睡眠和适度运动对缓解紧张有帮助。", "en": "Regular sleep and moderate exercise can ease tension." }
+        ]
+      },
+      {
+        "key": "severe", "min": 15, "max": 21, "level": "high", "seekHelp": true,
+        "label": { "zh-CN": "重度", "en": "Severe" },
+        "summary": { "zh-CN": "焦虑相关的症状较多且频繁，可能已经明显影响到生活。你值得得到专业的支持。", "en": "Many frequent anxiety symptoms that may be clearly affecting daily life. You deserve professional support." },
+        "suggestions": [
+          { "zh-CN": "建议尽快联系医院的精神心理科、心理门诊或专业咨询机构。", "en": "Please contact a mental-health service, clinic or qualified professional soon." },
+          { "zh-CN": "需要倾诉时，可以拨打全国统一心理援助热线 12356。", "en": "If you need someone to talk to, call a mental-health helpline (in China: 12356)." },
+          { "zh-CN": "请告诉身边信任的人你最近的状态。", "en": "Let someone close to you know how you have been." }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+# private notes
+LocalOnly/
+
+# dependencies & build output
+node_modules/
+dist/
+dist-e2e/
+target/
+apps/mindscope/src-tauri/gen/
+*.tsbuildinfo
+coverage/
+test-results/
+playwright-report/
+
+# runtime data created by the app when run from the repo
+data/
+logs/
+cache/
+config/
+mindscope.portable.json
+release/
+.build/
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mindscope.local/schema/bank.schema.json",
+  "title": "MindScope item bank",
+  "description": "Editor support for MindScope item banks. Full rules (key balance, mode feasibility, duplicates) are checked by validateBank() in @mindscope/core.",
+  "type": "object",
+  "required": ["instrument", "version", "status", "title", "license", "source", "scales", "scoring", "modes", "items"],
+  "$defs": {
+    "i18n": {
+      "type": "object",
+      "required": ["zh-CN"],
+      "properties": { "zh-CN": { "type": "string", "minLength": 1 }, "en": { "type": "string" } },
+      "additionalProperties": { "type": "string" }
+    },
+    "mode": {
+      "type": "object",
+      "required": ["adaptive"],
+      "properties": {
+        "adaptive": { "type": "boolean" },
+        "all": { "type": "boolean" },
+        "dimensions": {
+          "type": "object",
+          "required": ["min", "max", "total"],
+          "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 }, "total": { "type": "integer", "minimum": 4 } }
+        },
+        "functions": { "type": "object", "required": ["per"], "properties": { "per": { "type": "integer", "minimum": 0 } } }
+      }
+    }
+  },
+  "properties": {
+    "$schema": { "type": "string" },
+    "instrument": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "status": { "enum": ["experimental", "published"] },
+    "title": { "$ref": "#/$defs/i18n" },
+    "license": { "type": "string" },
+    "source": { "$ref": "#/$defs/i18n" },
+    "scales": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["points", "labels"],
+        "properties": {
+          "points": { "type": "integer", "minimum": 2 },
+          "labels": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } }
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "required": ["engine", "balancedThreshold", "bands", "minAnsweredRatio", "minFunctionItems"],
+      "properties": {
+        "engine": { "type": "string" },
+        "balancedThreshold": { "type": "number", "minimum": 0, "maximum": 1 },
+        "bands": { "type": "array", "items": { "type": "number" }, "minItems": 3, "maxItems": 3 },
+        "minAnsweredRatio": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+        "minFunctionItems": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "modes": {
+      "type": "object",
+      "required": ["quick", "normal", "senior", "full"],
+      "properties": {
+        "quick": { "$ref": "#/$defs/mode" },
+        "normal": { "$ref": "#/$defs/mode" },
+        "senior": { "$ref": "#/$defs/mode" },
+        "full": { "$ref": "#/$defs/mode" }
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "target", "key", "weight", "scale", "text", "enabled"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Za-z0-9-]+$" },
+          "target": { "enum": ["EI", "SN", "TF", "JP", "Se", "Si", "Ne", "Ni", "Te", "Ti", "Fe", "Fi"] },
+          "key": { "enum": [1, -1] },
+          "weight": { "type": "number", "exclusiveMinimum": 0 },
+          "scale": { "type": "string" },
+          "text": { "$ref": "#/$defs/i18n" },
+          "tags": { "type": "array", "items": { "type": "string" } },
+          "modes": { "type": "array", "items": { "enum": ["quick", "normal", "senior", "full"] } },
+          "enabled": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

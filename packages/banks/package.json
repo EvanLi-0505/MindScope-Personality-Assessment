@@ -1,0 +1,23 @@
+{
+  "name": "@mindscope/banks",
+  "version": "0.1.0",
+  "description": "MindScope built-in item banks, type profiles and texts (original content).",
+  "license": "CC-BY-SA-4.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mindscope/core": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "4.1.12"
+  }
+}

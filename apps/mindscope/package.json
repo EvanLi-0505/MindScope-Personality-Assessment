@@ -1,0 +1,46 @@
+{
+  "name": "@mindscope/app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MindScope application (web + desktop shell).",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit -p tsconfig.json && vite build && node scripts/verify-dist.mjs dist",
+    "build:e2e": "vite build --mode e2e --outDir dist-e2e --emptyOutDir",
+    "preview": "vite preview --port 4173 --strictPort",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build --no-bundle",
+    "icons": "node scripts/make-icons.mjs",
+    "test": "vitest run src",
+    "test:e2e": "playwright test",
+    "test:e2e:release": "playwright test -c playwright.release.config.ts"
+  },
+  "dependencies": {
+    "@mindscope/banks": "0.1.0",
+    "@mindscope/core": "0.1.0",
+    "@mindscope/storage": "0.1.0",
+    "@sqlite.org/sqlite-wasm": "3.54.1-build1",
+    "@tauri-apps/api": "2.12.4",
+    "echarts": "6.1.0",
+    "naive-ui": "2.45.3",
+    "pinia": "3.0.4",
+    "vue": "3.5.44",
+    "vue-i18n": "11.4.16",
+    "vue-router": "4.6.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@tauri-apps/cli": "2.12.4",
+    "@types/node": "24.19.2",
+    "@vitejs/plugin-vue": "6.0.10",
+    "vitest": "4.1.12",
+    "sharp": "0.35.5",
+    "typescript": "5.9.3",
+    "vite": "8.3.5",
+    "vue-tsc": "3.3.13"
+  }
+}

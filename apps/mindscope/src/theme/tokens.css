@@ -1,0 +1,166 @@
+/* MindScope design tokens. Calm teal → indigo; never "clinical" red/white. */
+:root {
+  --ms-brand: #1f7a6d;
+  --ms-brand-2: #2ba88f;
+  --ms-accent: #5b4fe0;
+  --ms-gradient: linear-gradient(135deg, #2ba88f 0%, #5b4fe0 100%);
+
+  --ms-bg: #f5f7f8;
+  --ms-surface: #ffffff;
+  --ms-surface-2: #f0f4f5;
+  --ms-border: #e1e8ea;
+  --ms-text: #14202b;
+  --ms-text-2: #51606e;
+  --ms-text-3: #8794a1;
+
+  --ms-radius: 14px;
+  --ms-radius-sm: 10px;
+  --ms-shadow: 0 8px 28px rgba(20, 32, 43, 0.06);
+  --ms-sidebar-w: 232px;
+  --ms-tabbar-h: 60px;
+
+  --ms-font: system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei UI', 'Microsoft YaHei', 'PingFang SC',
+    'Hiragino Sans GB', 'Noto Sans SC', 'Noto Sans CJK SC', sans-serif;
+}
+
+:root[data-theme='dark'] {
+  --ms-brand: #3fbfa5;
+  --ms-brand-2: #5fd3bb;
+  --ms-accent: #8f86ff;
+  --ms-bg: #0f151b;
+  --ms-surface: #161e26;
+  --ms-surface-2: #1c2630;
+  --ms-border: #263340;
+  --ms-text: #e6edf2;
+  --ms-text-2: #a6b3bf;
+  --ms-text-3: #6f7d8a;
+  --ms-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: var(--ms-font);
+  background: var(--ms-bg);
+  color: var(--ms-text);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.3;
+  margin: 0;
+}
+
+.ms-page {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 28px 28px 48px;
+}
+
+.ms-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.ms-page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.ms-card {
+  background: var(--ms-surface);
+  border: 1px solid var(--ms-border);
+  border-radius: var(--ms-radius);
+  box-shadow: var(--ms-shadow);
+  padding: 20px;
+}
+
+.ms-muted {
+  color: var(--ms-text-2);
+}
+
+.ms-subtle {
+  color: var(--ms-text-3);
+  font-size: 0.875rem;
+}
+
+.ms-grid {
+  display: grid;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .ms-page {
+    padding: 16px 16px calc(var(--ms-tabbar-h) + 24px);
+  }
+  .ms-page-title {
+    font-size: 1.25rem;
+  }
+}
+
+/* ── Print: only the page content, no app chrome ─────────────────────── */
+@page {
+  size: A4;
+  margin: 16mm 14mm;
+}
+
+.ms-print-only {
+  display: none;
+}
+
+@media print {
+  .ms-print-only {
+    display: block;
+  }
+  :root,
+  :root[data-theme='dark'] {
+    --ms-bg: #ffffff;
+    --ms-surface: #ffffff;
+    --ms-text: #000000;
+    --ms-text-2: #333333;
+    --ms-border: #d0d7dc;
+    --ms-shadow: none;
+  }
+  body {
+    background: #fff;
+  }
+  .ms-no-print {
+    display: none !important;
+  }
+  .ms-page {
+    max-width: none;
+    padding: 0;
+  }
+  .ms-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+  .ms-page-break {
+    break-before: page;
+  }
+  /* A chart is never split across two pages, and its heading stays with it. */
+  .echart {
+    break-inside: avoid;
+  }
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+}

@@ -1,0 +1,3332 @@
+{
+  "$schema": "../schema/bank.schema.json",
+  "instrument": "ms16",
+  "version": "0.1.0",
+  "status": "experimental",
+  "title": {
+    "zh-CN": "MindScope 16 型人格题库",
+    "en": "MindScope 16-Type Item Bank"
+  },
+  "license": "CC-BY-SA-4.0",
+  "source": {
+    "zh-CN": "MindScope 项目自编（2026）。尚未经过常模与效度验证，结果仅供自我了解参考。不是官方 MBTI 量表。",
+    "en": "Written by the MindScope project (2026). Not yet validated against norms; results are for self-reflection only. Not the official MBTI instrument."
+  },
+  "scales": {
+    "likert7": {
+      "points": 7,
+      "labels": {
+        "zh-CN": [
+          "完全不同意",
+          "不同意",
+          "有点不同意",
+          "中立",
+          "有点同意",
+          "同意",
+          "完全同意"
+        ],
+        "en": [
+          "Strongly disagree",
+          "Disagree",
+          "Slightly disagree",
+          "Neutral",
+          "Slightly agree",
+          "Agree",
+          "Strongly agree"
+        ]
+      }
+    }
+  },
+  "scoring": {
+    "engine": "bipolar-likert@1",
+    "balancedThreshold": 0.1,
+    "bands": [
+      0.1,
+      0.3,
+      0.6
+    ],
+    "minAnsweredRatio": 0.8,
+    "minFunctionItems": 2
+  },
+  "modes": {
+    "quick": {
+      "dimensions": {
+        "min": 4,
+        "max": 8,
+        "total": 24
+      },
+      "functions": {
+        "per": 2
+      },
+      "adaptive": true
+    },
+    "normal": {
+      "dimensions": {
+        "min": 9,
+        "max": 15,
+        "total": 48
+      },
+      "functions": {
+        "per": 4
+      },
+      "adaptive": true
+    },
+    "senior": {
+      "dimensions": {
+        "min": 16,
+        "max": 24,
+        "total": 80
+      },
+      "functions": {
+        "per": 8
+      },
+      "adaptive": true
+    },
+    "full": {
+      "all": true,
+      "adaptive": false
+    }
+  },
+  "items": [
+    {
+      "id": "EI-001",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在热闹的聚会结束后，我通常觉得精力更充沛了。",
+        "en": "After a lively gathering, I usually feel more energized than before."
+      },
+      "tags": [
+        "energy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-002",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢边说边想，把想法讲出来能帮我理清思路。",
+        "en": "I like to think out loud; talking helps me sort out my thoughts."
+      },
+      "tags": [
+        "thinking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-003",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在一群不太熟的人中，我通常会主动开启话题。",
+        "en": "Among people I don't know well, I usually start the conversation."
+      },
+      "tags": [
+        "initiative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-004",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "空闲的周末，我更愿意约朋友出去而不是待在家里。",
+        "en": "On a free weekend, I would rather go out with friends than stay at home."
+      },
+      "tags": [
+        "leisure"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-005",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢同时认识很多不同的人。",
+        "en": "I enjoy getting to know many different people at the same time."
+      },
+      "tags": [
+        "breadth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-006",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "小组讨论时，我通常是比较早发言的人之一。",
+        "en": "In group discussions, I am usually one of the first to speak."
+      },
+      "tags": [
+        "speaking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-007",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "一个人独处太久会让我觉得闷。",
+        "en": "Spending a long time alone makes me feel restless."
+      },
+      "tags": [
+        "energy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-008",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很享受成为大家注意力的中心。",
+        "en": "I enjoy being the center of attention."
+      },
+      "tags": [
+        "attention"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-009",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "遇到问题时，我倾向于先找人聊聊。",
+        "en": "When I face a problem, my first move is usually to talk it through with someone."
+      },
+      "tags": [
+        "thinking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-010",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我在热闹、有人来往的环境中做事效率更高。",
+        "en": "I get more done in a lively place with people coming and going."
+      },
+      "tags": [
+        "environment"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-011",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人通常很快就能知道我在想什么。",
+        "en": "People usually find out quickly what I am thinking."
+      },
+      "tags": [
+        "openness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-012",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很容易和陌生人聊起来。",
+        "en": "I find it easy to strike up a chat with strangers."
+      },
+      "tags": [
+        "initiative"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-013",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "一天中如果有很多社交活动，我反而感到更有活力。",
+        "en": "A day full of social activities leaves me feeling more lively, not less."
+      },
+      "tags": [
+        "energy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-014",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更喜欢通过参与和行动来了解一件事，而不是先在心里想清楚。",
+        "en": "I prefer to understand things by jumping in and taking part rather than thinking them through first."
+      },
+      "tags": [
+        "action"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-015",
+      "target": "EI",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "加入一个新团体时，我很快就能融入。",
+        "en": "When I join a new group, I fit in quickly."
+      },
+      "tags": [
+        "groups"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-016",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "和很多人相处一整天后，我需要独处一段时间来恢复精力。",
+        "en": "After a full day with many people, I need time alone to recharge."
+      },
+      "tags": [
+        "energy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-017",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起参加大型聚会，我更喜欢和一两个好朋友深入交谈。",
+        "en": "I prefer deep conversations with one or two close friends to big parties."
+      },
+      "tags": [
+        "depth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-018",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "发言之前，我通常会先在心里把想法想清楚。",
+        "en": "Before speaking, I usually think my ideas through in my head."
+      },
+      "tags": [
+        "thinking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-019",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我习惯先自己消化情绪和想法，再决定要不要跟别人说。",
+        "en": "I usually process my feelings and thoughts on my own before deciding whether to share them."
+      },
+      "tags": [
+        "processing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-020",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "电话突然响起时，我常常希望对方改发消息。",
+        "en": "When the phone rings unexpectedly, I often wish the person had sent a message instead."
+      },
+      "tags": [
+        "contact"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-021",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在会议上，我常常是听得多、说得少的那个人。",
+        "en": "In meetings, I am often the one who listens more than talks."
+      },
+      "tags": [
+        "speaking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-022",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人需要相处一段时间才能真正了解我。",
+        "en": "It takes people a while to really get to know me."
+      },
+      "tags": [
+        "openness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-023",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "太多的社交安排会让我感到疲惫。",
+        "en": "Too many social plans wear me out."
+      },
+      "tags": [
+        "energy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-024",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更愿意用文字来表达复杂的想法。",
+        "en": "I prefer to express complicated ideas in writing."
+      },
+      "tags": [
+        "expression"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-025",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我的朋友圈子不大，但关系都很深。",
+        "en": "My circle of friends is small, but the bonds are deep."
+      },
+      "tags": [
+        "depth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-026",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在嘈杂、人多的地方待久了，我会很想找个安静的角落。",
+        "en": "After a while in a noisy, crowded place, I want to find a quiet corner."
+      },
+      "tags": [
+        "environment"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-027",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我通常只和熟悉的人分享自己的私事。",
+        "en": "I usually share personal matters only with people I know well."
+      },
+      "tags": [
+        "privacy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-028",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "假期里，我更想安安静静地休息，而不是排满活动。",
+        "en": "On holiday, I would rather rest quietly than fill the days with activities."
+      },
+      "tags": [
+        "leisure"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-029",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "到了一个新群体，我通常要先观察一段时间才会加入谈话。",
+        "en": "In a new group, I usually watch for a while before joining the conversation."
+      },
+      "tags": [
+        "groups"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "EI-030",
+      "target": "EI",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "独处的时光对我来说是一种享受，而不是孤单。",
+        "en": "Time alone feels like a treat to me, not like loneliness."
+      },
+      "tags": [
+        "solitude"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-001",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更信任亲身经历过的事实，而不是推测。",
+        "en": "I trust facts I have experienced more than speculation."
+      },
+      "tags": [
+        "evidence"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-002",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "学习新东西时，我喜欢先看具体的例子。",
+        "en": "When learning something new, I like to start with concrete examples."
+      },
+      "tags": [
+        "learning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-003",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做事时，我会特别留意细节。",
+        "en": "When I work on something, I pay special attention to the details."
+      },
+      "tags": [
+        "detail"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-004",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更喜欢按已经被证明有效的方法做事。",
+        "en": "I prefer to do things in ways that are proven to work."
+      },
+      "tags": [
+        "method"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-005",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "描述一件事时，我倾向于说清楚具体发生了什么，而不是它意味着什么。",
+        "en": "When describing an event, I tend to say exactly what happened rather than what it means."
+      },
+      "tags": [
+        "description"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-006",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起讨论抽象的理论，我更喜欢解决实际的问题。",
+        "en": "I would rather solve practical problems than discuss abstract theories."
+      },
+      "tags": [
+        "practical"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-007",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我比较关注当下，而不是很久以后的可能性。",
+        "en": "I focus more on the here and now than on possibilities far in the future."
+      },
+      "tags": [
+        "present"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-008",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "有明确、一步一步的说明时，我做事最顺手。",
+        "en": "I work best with clear, step-by-step instructions."
+      },
+      "tags": [
+        "instructions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-009",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能记住很多具体的事实和数字。",
+        "en": "I easily remember specific facts and figures."
+      },
+      "tags": [
+        "memory"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-010",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人说话太绕或太抽象时，我会希望他们讲得直接具体一点。",
+        "en": "When people talk in vague or abstract terms, I wish they would be more direct and concrete."
+      },
+      "tags": [
+        "communication"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-011",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我欣赏实用、经久耐用的东西胜过新奇的设计。",
+        "en": "I value things that are practical and durable over things that are merely novel."
+      },
+      "tags": [
+        "practical"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-012",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很快就会注意到周围环境的变化，比如声音、气味或物品的摆放。",
+        "en": "I quickly notice changes in my surroundings, such as sounds, smells or how things are arranged."
+      },
+      "tags": [
+        "senses"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-013",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做决定时，我主要依据现有的数据和经验。",
+        "en": "When deciding, I rely mainly on the data and experience at hand."
+      },
+      "tags": [
+        "evidence"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-014",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起不断尝试新东西，我更喜欢把一项技能练到熟练。",
+        "en": "I prefer to master one skill thoroughly rather than keep trying new things."
+      },
+      "tags": [
+        "mastery"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-015",
+      "target": "SN",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "读一本书时，我更关注情节和事实，而不是隐藏的象征意义。",
+        "en": "When reading a book, I focus on the plot and facts rather than hidden symbolism."
+      },
+      "tags": [
+        "reading"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-016",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我经常会想“如果……会怎样”。",
+        "en": "I often find myself wondering \"what if…?\""
+      },
+      "tags": [
+        "imagination"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-017",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很容易注意到事物之间不明显的联系。",
+        "en": "I easily notice connections between things that others miss."
+      },
+      "tags": [
+        "patterns"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-018",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起事实本身，我更感兴趣的是它背后的意义。",
+        "en": "I am more interested in what facts mean than in the facts themselves."
+      },
+      "tags": [
+        "meaning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-019",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢讨论抽象的理论和概念。",
+        "en": "I enjoy discussing abstract theories and concepts."
+      },
+      "tags": [
+        "abstract"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-020",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常凭直觉就知道事情会怎么发展，虽然说不清理由。",
+        "en": "I often sense how things will turn out, even when I can't explain why."
+      },
+      "tags": [
+        "intuition"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-021",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "一成不变的重复性工作很快会让我厌倦。",
+        "en": "Repetitive routine work bores me quickly."
+      },
+      "tags": [
+        "novelty"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-022",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢用比喻和类比来解释事情。",
+        "en": "I like to explain things with metaphors and analogies."
+      },
+      "tags": [
+        "communication"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-023",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起眼前的细节，我对未来的各种可能性更感兴趣。",
+        "en": "Future possibilities interest me more than present details."
+      },
+      "tags": [
+        "future"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-024",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "读说明书时，我常常跳过细节，先把握整体思路。",
+        "en": "When reading instructions, I often skip the details and grab the overall idea first."
+      },
+      "tags": [
+        "instructions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-025",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我经常冒出新点子，但不一定每个都去落实。",
+        "en": "I often come up with new ideas, though I don't carry all of them out."
+      },
+      "tags": [
+        "ideas"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-026",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢尝试用新的方式做熟悉的事情。",
+        "en": "I like trying new ways of doing familiar things."
+      },
+      "tags": [
+        "novelty"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-027",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人有时觉得我的想法太跳跃，不容易跟上。",
+        "en": "People sometimes find my thinking hard to follow because it jumps around."
+      },
+      "tags": [
+        "thinking"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-028",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常在脑海中想象一件事将来可能变成的样子。",
+        "en": "I often picture in my mind what something could become."
+      },
+      "tags": [
+        "imagination"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-029",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "评价一个方案时，我很看重它是否有创意，而不只是是否稳妥。",
+        "en": "When judging a plan, I care about how original it is, not just how safe it is."
+      },
+      "tags": [
+        "originality"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "SN-030",
+      "target": "SN",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢探索还没有标准答案的问题。",
+        "en": "I enjoy exploring questions that do not have a standard answer yet."
+      },
+      "tags": [
+        "open_questions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-001",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做重要决定时，我主要依据逻辑和客观分析。",
+        "en": "When making important decisions, I rely mainly on logic and objective analysis."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-002",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我认为指出别人的错误是必要的，即使会让人不舒服。",
+        "en": "I think pointing out mistakes is necessary, even if it makes people uncomfortable."
+      },
+      "tags": [
+        "honesty"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-003",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更看重一个结论是否正确，而不是大家是否认同。",
+        "en": "I care more about whether a conclusion is correct than whether everyone agrees with it."
+      },
+      "tags": [
+        "truth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-004",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在争论中，我更关注观点本身，而不太顾及对方的感受。",
+        "en": "In a debate, I focus on the argument itself more than on how the other person feels."
+      },
+      "tags": [
+        "debate"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-005",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我认为规则应该对每个人一视同仁，不应因人而异。",
+        "en": "I believe rules should apply equally to everyone, without exceptions for personal circumstances."
+      },
+      "tags": [
+        "fairness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-006",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人向我倾诉问题时，我的第一反应通常是想办法解决。",
+        "en": "When someone shares a problem with me, my first instinct is to look for a solution."
+      },
+      "tags": [
+        "support"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-007",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢用数据和证据来说服别人。",
+        "en": "I like to persuade people with data and evidence."
+      },
+      "tags": [
+        "persuasion"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-008",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "即使是朋友提出的方案，我也能冷静地指出其中的问题。",
+        "en": "I can calmly point out problems in a plan even when a friend proposed it."
+      },
+      "tags": [
+        "critique"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-009",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "评价一个人的工作时，我主要看结果和效率。",
+        "en": "When judging someone's work, I look mainly at results and efficiency."
+      },
+      "tags": [
+        "evaluation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-010",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我相信大多数问题都能通过理性分析找到最好的答案。",
+        "en": "I believe most problems can be best solved through rational analysis."
+      },
+      "tags": [
+        "reason"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-011",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起被称赞“有爱心”，我更希望被称赞“有能力”。",
+        "en": "I would rather be praised as capable than as kind-hearted."
+      },
+      "tags": [
+        "self_image"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-012",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做选择时，我会尽量把个人感情放在一边。",
+        "en": "When choosing, I try to set my personal feelings aside."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-013",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我说话比较直接，觉得绕弯子是在浪费时间。",
+        "en": "I speak directly; beating around the bush seems like a waste of time."
+      },
+      "tags": [
+        "directness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-014",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "遇到冲突时，我先想的是谁对谁错。",
+        "en": "In a conflict, my first question is who is right and who is wrong."
+      },
+      "tags": [
+        "conflict"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-015",
+      "target": "TF",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做判断时，我更相信客观标准，而不是个人好恶。",
+        "en": "In my judgments, I trust objective standards over personal likes and dislikes."
+      },
+      "tags": [
+        "standards"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-016",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做决定时，我会认真考虑它对相关的人有什么影响。",
+        "en": "When deciding, I think carefully about how it will affect the people involved."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-017",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很在意身边的人是否相处融洽。",
+        "en": "I care a lot about whether the people around me get along."
+      },
+      "tags": [
+        "harmony"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-018",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "即使我有道理，也不太愿意说出可能伤人的话。",
+        "en": "Even when I'm right, I hesitate to say things that might hurt someone."
+      },
+      "tags": [
+        "tact"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-019",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常能感受到别人没有说出口的情绪。",
+        "en": "I often sense feelings that others leave unspoken."
+      },
+      "tags": [
+        "empathy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-020",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我认为在某些情况下，体谅和人情比规则更重要。",
+        "en": "I think that in some situations, understanding and compassion matter more than rules."
+      },
+      "tags": [
+        "fairness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-021",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "朋友向我倾诉时，我首先想做的是倾听和安慰。",
+        "en": "When a friend confides in me, my first wish is to listen and comfort."
+      },
+      "tags": [
+        "support"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-022",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做选择时，我常常会问自己“这符合我看重的东西吗”。",
+        "en": "When choosing, I often ask myself whether it fits what I truly value."
+      },
+      "tags": [
+        "values"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-023",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人批评我的时候，我比较容易往心里去。",
+        "en": "I tend to take criticism to heart."
+      },
+      "tags": [
+        "criticism"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-024",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "一个真实的故事比一组统计数据更能打动我。",
+        "en": "A true personal story moves me more than a set of statistics."
+      },
+      "tags": [
+        "persuasion"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-025",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "为了维护一段关系，我愿意做出一些让步。",
+        "en": "I'm willing to give some ground to keep a relationship healthy."
+      },
+      "tags": [
+        "relationships"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-026",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人的赞扬和鼓励对我做事的动力影响很大。",
+        "en": "Praise and encouragement strongly affect my motivation."
+      },
+      "tags": [
+        "motivation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-027",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "评价一个人时，我会考虑他的出发点和难处。",
+        "en": "When judging someone, I take their intentions and difficulties into account."
+      },
+      "tags": [
+        "evaluation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-028",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "看到别人难过，我很难置身事外。",
+        "en": "When I see someone upset, it is hard for me to stay uninvolved."
+      },
+      "tags": [
+        "empathy"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-029",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "对我来说，一个决定“感觉对”很重要。",
+        "en": "It matters to me that a decision feels right."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "TF-030",
+      "target": "TF",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在团队里，我常常是那个照顾大家情绪的人。",
+        "en": "In a team, I am often the one who looks after everyone's feelings."
+      },
+      "tags": [
+        "team"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-001",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢提前做好计划，而不是到时候再说。",
+        "en": "I like to plan ahead rather than decide on the spot."
+      },
+      "tags": [
+        "planning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-002",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我通常会提前完成任务，而不是拖到截止日期前。",
+        "en": "I usually finish tasks well before the deadline."
+      },
+      "tags": [
+        "deadlines"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-003",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "有一份待办清单会让我感到踏实。",
+        "en": "Having a to-do list makes me feel settled."
+      },
+      "tags": [
+        "lists"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-004",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "事情悬而未决会让我感到不安。",
+        "en": "Leaving things undecided makes me uneasy."
+      },
+      "tags": [
+        "closure"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-005",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我的房间和桌面通常整理得比较有条理。",
+        "en": "My room and desk are usually well organized."
+      },
+      "tags": [
+        "order"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-006",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "出门旅行前，我会把行程大致安排好。",
+        "en": "Before a trip, I roughly plan the itinerary."
+      },
+      "tags": [
+        "travel"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-007",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "计划被突然打乱时，我会比较烦躁。",
+        "en": "I get irritated when my plans are suddenly disrupted."
+      },
+      "tags": [
+        "change"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-008",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢先把工作做完，再去放松娱乐。",
+        "en": "I prefer to finish my work before I relax."
+      },
+      "tags": [
+        "work_play"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-009",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做出决定后，我倾向于坚持执行，而不是反复调整。",
+        "en": "Once I decide, I tend to stick with it rather than keep adjusting."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-010",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我习惯按固定的作息和流程生活。",
+        "en": "I like to live by a regular routine."
+      },
+      "tags": [
+        "routine"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-011",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我希望事情尽早有一个明确的结论。",
+        "en": "I like things to be clearly settled as early as possible."
+      },
+      "tags": [
+        "closure"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-012",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "同时开了很多头却没有完成，会让我很难受。",
+        "en": "Starting many things without finishing them really bothers me."
+      },
+      "tags": [
+        "completion"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-013",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我会为重要的事情预留出充足的时间。",
+        "en": "I set aside plenty of time for important matters."
+      },
+      "tags": [
+        "time"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-014",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢事先知道接下来会发生什么。",
+        "en": "I like knowing in advance what will happen next."
+      },
+      "tags": [
+        "predictability"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-015",
+      "target": "JP",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我会把约会和截止日期记在日历上。",
+        "en": "I keep my appointments and deadlines in a calendar."
+      },
+      "tags": [
+        "calendar"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-016",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢保留选择的余地，不急于做决定。",
+        "en": "I like to keep my options open rather than decide quickly."
+      },
+      "tags": [
+        "options"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-017",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "截止日期临近时，我反而效率最高。",
+        "en": "I do my best work when the deadline is close."
+      },
+      "tags": [
+        "deadlines"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-018",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "计划临时改变时，我通常能很快适应，甚至觉得有趣。",
+        "en": "When plans change at the last minute, I adapt quickly and may even enjoy it."
+      },
+      "tags": [
+        "change"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-019",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更喜欢说走就走的旅行。",
+        "en": "I prefer spontaneous trips."
+      },
+      "tags": [
+        "travel"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-020",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "太多的规矩和流程会让我觉得被束缚。",
+        "en": "Too many rules and procedures make me feel boxed in."
+      },
+      "tags": [
+        "rules"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-021",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常同时进行好几件事，想到哪做到哪。",
+        "en": "I often juggle several things at once, following whatever catches my interest."
+      },
+      "tags": [
+        "multitask"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-022",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "即使已经做了决定，有了新信息我也乐意改变。",
+        "en": "Even after deciding, I'm happy to change my mind when new information comes up."
+      },
+      "tags": [
+        "decisions"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-023",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我的桌面经常有点乱，但我知道东西在哪。",
+        "en": "My desk is often a bit messy, but I know where things are."
+      },
+      "tags": [
+        "order"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-024",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢边做边看，而不是事先把一切都计划好。",
+        "en": "I like to figure things out as I go rather than plan everything in advance."
+      },
+      "tags": [
+        "planning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-025",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "固定不变的日程安排会让我觉得无聊。",
+        "en": "A fixed, unchanging schedule bores me."
+      },
+      "tags": [
+        "routine"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-026",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我做事常常看心情和兴致。",
+        "en": "What I do often depends on my mood and interest."
+      },
+      "tags": [
+        "mood"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-027",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我觉得过早下结论可能会错过更好的选择。",
+        "en": "I feel that settling too early can mean missing a better option."
+      },
+      "tags": [
+        "closure"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-028",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起按清单做事，我更喜欢随机应变。",
+        "en": "I would rather improvise than follow a checklist."
+      },
+      "tags": [
+        "lists"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-029",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我享受工作和生活中出现的意外和变化。",
+        "en": "I enjoy surprises and changes in work and life."
+      },
+      "tags": [
+        "surprise"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "JP-030",
+      "target": "JP",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "收拾整理对我来说不是要优先做的事。",
+        "en": "Tidying up is not a high priority for me."
+      },
+      "tags": [
+        "tidiness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-001",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢能调动五感的体验，比如美食、音乐、运动。",
+        "en": "I love experiences that engage all my senses, like good food, music or sports."
+      },
+      "tags": [
+        "senses"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-002",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "在紧急情况下，我能迅速做出反应并采取行动。",
+        "en": "In an emergency, I react quickly and take action."
+      },
+      "tags": [
+        "reaction"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-003",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很享受全身心投入当下正在发生的事情。",
+        "en": "I enjoy being fully absorbed in whatever is happening right now."
+      },
+      "tags": [
+        "present"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-004",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢刺激、带点冒险的活动。",
+        "en": "I enjoy thrilling activities with a bit of risk."
+      },
+      "tags": [
+        "thrill"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-005",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很擅长在现场随机应变地处理问题。",
+        "en": "I am good at handling problems on the spot as they come up."
+      },
+      "tags": [
+        "improvise"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-006",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我对外观、颜色和质感很敏锐，比如穿搭和布置。",
+        "en": "I am sharp about looks, colors and textures, for example in clothes or decoration."
+      },
+      "tags": [
+        "aesthetics"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-007",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起读说明书，我更愿意直接上手试一试。",
+        "en": "Rather than read the manual, I'd rather just try it with my hands."
+      },
+      "tags": [
+        "hands_on"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-008",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢马上行动，并且很快看到结果。",
+        "en": "I like to act right away and see results quickly."
+      },
+      "tags": [
+        "action"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-009",
+      "target": "Se",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "身体运动和户外活动能让我恢复精力。",
+        "en": "Physical activity and time outdoors restore my energy."
+      },
+      "tags": [
+        "body"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-010",
+      "target": "Se",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常想得太入神，以至于忽略了身边正在发生的事。",
+        "en": "I often get so lost in thought that I miss what is going on around me."
+      },
+      "tags": [
+        "absent"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-011",
+      "target": "Se",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我需要先想清楚才行动，很少凭一时的冲动做事。",
+        "en": "I need to think things through before acting and rarely act on impulse."
+      },
+      "tags": [
+        "impulse"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Se-012",
+      "target": "Se",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不太在意衣着和周围环境好不好看。",
+        "en": "I don't pay much attention to how clothes or surroundings look."
+      },
+      "tags": [
+        "aesthetics"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-001",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "遇到新情况时，我会自然地拿它和以前的经历作比较。",
+        "en": "In a new situation, I naturally compare it with past experiences."
+      },
+      "tags": [
+        "comparison"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-002",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我对过去发生的事记得很清楚，包括很多细节。",
+        "en": "I remember past events clearly, including many details."
+      },
+      "tags": [
+        "recall"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-003",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "熟悉的环境、食物和习惯让我感到安心。",
+        "en": "Familiar places, foods and habits give me a sense of security."
+      },
+      "tags": [
+        "familiar"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-004",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很重视传统和惯例，觉得它们有存在的道理。",
+        "en": "I value traditions and customs; I think they exist for good reasons."
+      },
+      "tags": [
+        "tradition"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-005",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很清楚自己身体的状态，比如累了、饿了或不舒服。",
+        "en": "I am very aware of my body's state, such as being tired, hungry or unwell."
+      },
+      "tags": [
+        "body"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-006",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "答应别人的事，我会一丝不苟地做到。",
+        "en": "When I promise something, I follow through carefully."
+      },
+      "tags": [
+        "reliability"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-007",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我习惯保留旧物和纪念品，因为它们承载着回忆。",
+        "en": "I like to keep old things and keepsakes because they hold memories."
+      },
+      "tags": [
+        "keepsakes"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-008",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我会定期回顾过去的记录，比如日记、照片或账单。",
+        "en": "I regularly look back over past records such as diaries, photos or bills."
+      },
+      "tags": [
+        "review"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-009",
+      "target": "Si",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能察觉到事情和以前相比有哪些细微的不同。",
+        "en": "I notice small ways in which things differ from how they used to be."
+      },
+      "tags": [
+        "difference"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-010",
+      "target": "Si",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很少回想过去，更多关注接下来要做什么。",
+        "en": "I rarely think about the past; I focus on what comes next."
+      },
+      "tags": [
+        "past"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-011",
+      "target": "Si",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "过去的细节我常常记不太清楚。",
+        "en": "I often don't remember details of the past very well."
+      },
+      "tags": [
+        "recall"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Si-012",
+      "target": "Si",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不太在意传统的做法，觉得新办法往往更好。",
+        "en": "I don't care much for traditional ways; new approaches are often better."
+      },
+      "tags": [
+        "tradition"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-001",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "和别人讨论时，我的新点子会一个接一个地冒出来。",
+        "en": "In discussions, ideas pop into my head one after another."
+      },
+      "tags": [
+        "ideas"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-002",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我对很多不同领域都感兴趣，喜欢在它们之间跨界联想。",
+        "en": "I'm interested in many fields and like making links across them."
+      },
+      "tags": [
+        "breadth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-003",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "看到一样东西，我会想到它的很多种用法。",
+        "en": "When I see an object, I think of many ways it could be used."
+      },
+      "tags": [
+        "uses"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-004",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢头脑风暴，想法越天马行空越好。",
+        "en": "I love brainstorming, and the wilder the ideas the better."
+      },
+      "tags": [
+        "brainstorm"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-005",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "新的项目和可能性会让我很兴奋。",
+        "en": "New projects and possibilities excite me."
+      },
+      "tags": [
+        "excitement"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-006",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "对同一件事，我常常能看到好几种解释。",
+        "en": "I can often see several interpretations of the same event."
+      },
+      "tags": [
+        "interpretation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-007",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢和别人碰撞想法，互相启发。",
+        "en": "I like bouncing ideas off other people."
+      },
+      "tags": [
+        "bouncing"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-008",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人眼中的问题，我常常能看到其中的机会。",
+        "en": "Where others see a problem, I often see an opportunity."
+      },
+      "tags": [
+        "opportunity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-009",
+      "target": "Ne",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢问：“还有没有别的办法？”",
+        "en": "I like asking, \"Is there another way?\""
+      },
+      "tags": [
+        "alternatives"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-010",
+      "target": "Ne",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "太多的选择和可能性会让我觉得思路混乱。",
+        "en": "Too many options and possibilities leave my thinking muddled."
+      },
+      "tags": [
+        "options"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-011",
+      "target": "Ne",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很少冒出与当前话题无关的新想法。",
+        "en": "I rarely come up with ideas unrelated to the topic at hand."
+      },
+      "tags": [
+        "focus"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ne-012",
+      "target": "Ne",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "对还没被证实的新点子，我通常持保留态度。",
+        "en": "I am usually skeptical of new ideas that haven't been proven."
+      },
+      "tags": [
+        "skeptic"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-001",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常会突然“想通”一件事，整体的图景一下子变得清晰。",
+        "en": "Things often suddenly click for me, and the whole picture becomes clear at once."
+      },
+      "tags": [
+        "insight"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-002",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我心里常有一个长远的目标，做的事都围绕它展开。",
+        "en": "I usually have a long-term goal in mind, and what I do is arranged around it."
+      },
+      "tags": [
+        "vision"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-003",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢深入思考事物背后的本质。",
+        "en": "I like to reflect deeply on the essence behind things."
+      },
+      "tags": [
+        "essence"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-004",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常能从复杂的信息中提炼出一个核心结论。",
+        "en": "I can often distill one core conclusion from complex information."
+      },
+      "tags": [
+        "synthesis"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-005",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我对象征、梦境或隐喻背后的含义很感兴趣。",
+        "en": "I'm interested in the meaning behind symbols, dreams or metaphors."
+      },
+      "tags": [
+        "symbols"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-006",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常比别人更早看出一种趋势正在形成。",
+        "en": "I often notice a trend forming earlier than others do."
+      },
+      "tags": [
+        "trends"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-007",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我需要安静的时间，让想法在心里慢慢成形。",
+        "en": "I need quiet time to let my ideas take shape inside me."
+      },
+      "tags": [
+        "incubation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-008",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "比起了解很多事，我更想把一件事看透。",
+        "en": "I would rather understand one thing deeply than know a little about many."
+      },
+      "tags": [
+        "depth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-009",
+      "target": "Ni",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我常常在脑海中预演未来可能出现的情景。",
+        "en": "I often rehearse possible future scenarios in my mind."
+      },
+      "tags": [
+        "foresight"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-010",
+      "target": "Ni",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很少去想事情背后更深的含义。",
+        "en": "I rarely think about the deeper meaning behind events."
+      },
+      "tags": [
+        "meaning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-011",
+      "target": "Ni",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "对我来说，长远的愿景没有眼前的任务重要。",
+        "en": "To me, long-term visions matter less than the task in front of me."
+      },
+      "tags": [
+        "vision"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ni-012",
+      "target": "Ni",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更相信看得见的证据，而不是自己的预感。",
+        "en": "I trust visible evidence more than my own hunches."
+      },
+      "tags": [
+        "hunches"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-001",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我擅长把杂乱的任务整理成清晰的计划并分配下去。",
+        "en": "I'm good at turning a jumble of tasks into a clear plan and handing them out."
+      },
+      "tags": [
+        "organize"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-002",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很看重效率，不喜欢浪费时间和资源。",
+        "en": "I value efficiency and dislike wasting time and resources."
+      },
+      "tags": [
+        "efficiency"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-003",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢为目标设定可以衡量的标准。",
+        "en": "I like setting measurable targets for my goals."
+      },
+      "tags": [
+        "metrics"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-004",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "团队没有方向时，我会主动站出来做决定。",
+        "en": "When a team lacks direction, I step up and make decisions."
+      },
+      "tags": [
+        "lead"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-005",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我判断一个办法好不好，主要看它是否管用。",
+        "en": "I judge a method mainly by whether it gets results."
+      },
+      "tags": [
+        "results"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-006",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢用流程、表格和工具来管理事情。",
+        "en": "I like managing things with processes, spreadsheets and tools."
+      },
+      "tags": [
+        "tools"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-007",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能很快做出决断并推动执行。",
+        "en": "I can make decisions quickly and push them through."
+      },
+      "tags": [
+        "decisive"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-008",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢负责组织活动或项目，让一切按计划运转。",
+        "en": "I like being in charge of organizing events or projects so that everything runs to plan."
+      },
+      "tags": [
+        "projects"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-009",
+      "target": "Te",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "一场会议如果没有明确的结论，我会觉得是浪费时间。",
+        "en": "A meeting without a clear conclusion feels like a waste of time to me."
+      },
+      "tags": [
+        "meetings"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-010",
+      "target": "Te",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不太喜欢去管理或指挥别人做事。",
+        "en": "I don't much like managing or directing other people."
+      },
+      "tags": [
+        "lead"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-011",
+      "target": "Te",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不太在乎事情是否高效，过程本身更让我享受。",
+        "en": "I don't care much about efficiency; I enjoy the process itself."
+      },
+      "tags": [
+        "efficiency"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Te-012",
+      "target": "Te",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不喜欢用量化的指标去衡量事情。",
+        "en": "I dislike measuring things with numerical indicators."
+      },
+      "tags": [
+        "metrics"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-001",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢搞清楚一样东西为什么会这样运作。",
+        "en": "I like figuring out why something works the way it does."
+      },
+      "tags": [
+        "mechanism"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-002",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "别人用词不准确时，我会忍不住想纠正。",
+        "en": "When people use words imprecisely, I'm tempted to correct them."
+      },
+      "tags": [
+        "precision"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-003",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我习惯在心里建立一套自己的逻辑体系来理解世界。",
+        "en": "I tend to build my own logical framework to make sense of the world."
+      },
+      "tags": [
+        "framework"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-004",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能很快发现一个论证中的漏洞或矛盾。",
+        "en": "I quickly spot gaps or contradictions in an argument."
+      },
+      "tags": [
+        "flaws"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-005",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "即使是权威的说法，我也要自己想明白才会接受。",
+        "en": "Even when an authority says something, I accept it only after reasoning it through myself."
+      },
+      "tags": [
+        "independent"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-006",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢把复杂的问题拆解成最基本的组成部分。",
+        "en": "I like breaking complex problems down into their basic parts."
+      },
+      "tags": [
+        "decompose"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-007",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我享受独自钻研一个难题的过程。",
+        "en": "I enjoy working on a hard problem by myself."
+      },
+      "tags": [
+        "solitary"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-008",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更在乎一个想法在逻辑上是否自洽，而不是它是否实用。",
+        "en": "I care more about whether an idea is logically consistent than whether it is practical."
+      },
+      "tags": [
+        "consistency"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-009",
+      "target": "Ti",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "解释事情时，我喜欢从基本原理讲起。",
+        "en": "When explaining something, I like to start from first principles."
+      },
+      "tags": [
+        "principles"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-010",
+      "target": "Ti",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "只要方法管用，我不太在意背后的原理。",
+        "en": "As long as something works, I don't much care about the theory behind it."
+      },
+      "tags": [
+        "theory"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-011",
+      "target": "Ti",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很少去推敲别人话里的逻辑。",
+        "en": "I rarely examine the logic of what people say."
+      },
+      "tags": [
+        "logic"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Ti-012",
+      "target": "Ti",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "深入分析抽象的逻辑问题会让我觉得枯燥。",
+        "en": "Analyzing abstract logical problems in depth bores me."
+      },
+      "tags": [
+        "abstract"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-001",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能很快察觉到一群人中气氛的变化。",
+        "en": "I quickly notice changes in the mood of a group."
+      },
+      "tags": [
+        "atmosphere"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-002",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我会自然地调整自己的言行，让身边的人感到舒服。",
+        "en": "I naturally adjust what I say and do so that people around me feel comfortable."
+      },
+      "tags": [
+        "adjust"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-003",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很注重礼节，觉得它能让人与人相处更顺畅。",
+        "en": "I care about good manners; they help people get along smoothly."
+      },
+      "tags": [
+        "manners"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-004",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "看到集体里有人被冷落，我会想办法让他融入。",
+        "en": "When someone is left out in a group, I try to bring them in."
+      },
+      "tags": [
+        "inclusion"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-005",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢通过表达关心和赞赏让别人开心。",
+        "en": "I like making people happy by showing care and appreciation."
+      },
+      "tags": [
+        "appreciation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-006",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做决定时，我会考虑大家是否都能接受。",
+        "en": "When deciding, I consider whether everyone can accept it."
+      },
+      "tags": [
+        "consensus"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-007",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我擅长调解别人之间的矛盾。",
+        "en": "I'm good at smoothing over conflicts between others."
+      },
+      "tags": [
+        "mediation"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-008",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我会特意记住别人的生日或喜好。",
+        "en": "I make a point of remembering people's birthdays or preferences."
+      },
+      "tags": [
+        "remembering"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-009",
+      "target": "Fe",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "团队士气低落时，我会想办法鼓舞大家。",
+        "en": "When team morale is low, I try to lift everyone up."
+      },
+      "tags": [
+        "morale"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-010",
+      "target": "Fe",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我不太在意别人怎么看我的言行。",
+        "en": "I don't much care how others see what I say and do."
+      },
+      "tags": [
+        "image"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-011",
+      "target": "Fe",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "群体的气氛好不好，对我的影响不大。",
+        "en": "Whether a group's mood is good or bad doesn't affect me much."
+      },
+      "tags": [
+        "atmosphere"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fe-012",
+      "target": "Fe",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "为了照顾别人的情绪而委婉说话，会让我觉得很累。",
+        "en": "I find it tiring to soften my words just to spare someone's feelings."
+      },
+      "tags": [
+        "tact"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-001",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我有一套清晰的个人价值观，不会轻易因为别人而改变。",
+        "en": "I have a clear set of personal values that I don't easily change because of others."
+      },
+      "tags": [
+        "values"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-002",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "做违背自己内心的事，会让我非常难受。",
+        "en": "Doing something against my conscience makes me deeply uncomfortable."
+      },
+      "tags": [
+        "conscience"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-003",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很在意自己是否活得真实，而不是一味迎合别人。",
+        "en": "It matters to me to live authentically rather than simply to please others."
+      },
+      "tags": [
+        "authenticity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-004",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我的情感很丰富，但不一定会表露出来。",
+        "en": "My feelings run deep, though I don't always show them."
+      },
+      "tags": [
+        "depth"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-005",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我喜欢用自己的方式表达个性，比如写作、艺术或穿着。",
+        "en": "I like expressing my individuality in my own way, such as through writing, art or clothes."
+      },
+      "tags": [
+        "individuality"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-006",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "即使大多数人都同意，只要我觉得不对，我也不会附和。",
+        "en": "Even if most people agree, I won't go along with something I feel is wrong."
+      },
+      "tags": [
+        "integrity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-007",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我能清楚地分辨出自己内心细微的情绪变化。",
+        "en": "I can clearly tell apart subtle shifts in my own feelings."
+      },
+      "tags": [
+        "self_awareness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-008",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "不公平的事会让我产生强烈的情绪反应。",
+        "en": "Unfairness stirs strong feelings in me."
+      },
+      "tags": [
+        "justice"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-009",
+      "target": "Fi",
+      "key": 1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我更愿意做有意义的事，而不只是有回报的事。",
+        "en": "I'd rather do meaningful work than work that is merely rewarding."
+      },
+      "tags": [
+        "meaning"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-010",
+      "target": "Fi",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我的喜好和立场常常会随着身边的人而改变。",
+        "en": "My preferences and positions often shift depending on who I'm with."
+      },
+      "tags": [
+        "conformity"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-011",
+      "target": "Fi",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "我很少去探究自己真正的感受。",
+        "en": "I rarely explore what I truly feel."
+      },
+      "tags": [
+        "self_awareness"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "Fi-012",
+      "target": "Fi",
+      "key": -1,
+      "weight": 1,
+      "scale": "likert7",
+      "text": {
+        "zh-CN": "对我来说，符合集体的期待比坚持个人信念更重要。",
+        "en": "For me, meeting the group's expectations matters more than holding to personal beliefs."
+      },
+      "tags": [
+        "group"
+      ],
+      "enabled": true
+    }
+  ]
+}

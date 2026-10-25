@@ -1,0 +1,25 @@
+{
+  "name": "@mindscope/storage",
+  "version": "0.1.0",
+  "description": "MindScope SQLite schema, migrations and repositories. Driver independent (sqlite-wasm on the web, rusqlite on desktop).",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@mindscope/core": "0.1.0"
+  },
+  "devDependencies": {
+    "@mindscope/banks": "0.1.0",
+    "@types/node": "24.19.2",
+    "typescript": "5.9.3",
+    "vitest": "4.1.12"
+  }
+}

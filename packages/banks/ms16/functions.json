@@ -1,0 +1,55 @@
+{
+  "_note": "Descriptions of the eight cognitive functions and the four preference pairs. Original text, CC BY-SA 4.0.",
+  "functions": {
+    "Se": {
+      "zh-CN": { "name": "外倾感觉", "short": "沉浸当下，敏锐感知并即时行动", "description": "关注此时此地的具体感官信息，喜欢直接体验、随机应变，能迅速对环境变化做出反应。", "examples": ["在突发状况中迅速采取行动", "很享受美食、运动、音乐等直接的体验"] },
+      "en": { "name": "Extraverted Sensing", "short": "Absorbed in the present; perceives keenly and acts on the spot", "description": "Focuses on concrete sensory information here and now, enjoys direct experience and improvising, and responds quickly to changes around them.", "examples": ["Acts quickly when something unexpected happens", "Enjoys direct experiences like good food, sports or music"] }
+    },
+    "Si": {
+      "zh-CN": { "name": "内倾感觉", "short": "参照过往经验，重视熟悉与稳定", "description": "把当下的经验与记忆中的细节对照，留意事物与过去的差别，重视可靠、熟悉和身体的感受。", "examples": ["遇到新情况时自然地对比以前的经历", "保持稳定的习惯和惯例让自己安心"] },
+      "en": { "name": "Introverted Sensing", "short": "Draws on past experience; values the familiar and stable", "description": "Compares present experience with remembered details, notices how things differ from before, and values reliability, familiarity and bodily sensations.", "examples": ["Naturally compares a new situation with past ones", "Feels settled by keeping steady habits and routines"] }
+    },
+    "Ne": {
+      "zh-CN": { "name": "外倾直觉", "short": "发散联想，看见各种可能", "description": "在外部世界中不断发现新的联系和可能性，喜欢头脑风暴、跨领域联想和尝试新方向。", "examples": ["讨论时点子一个接一个地冒出来", "看到问题时也看到其中的机会"] },
+      "en": { "name": "Extraverted Intuition", "short": "Branches out; sees many possibilities", "description": "Keeps discovering new connections and possibilities in the outside world; enjoys brainstorming, cross-domain associations and new directions.", "examples": ["Ideas keep popping up during discussions", "Sees opportunities inside problems"] }
+    },
+    "Ni": {
+      "zh-CN": { "name": "内倾直觉", "short": "汇聚洞察，看见长远方向", "description": "把大量信息在内心整合成一个核心的洞见或长远图景，常有“突然想通”的时刻，关注事物的本质和走向。", "examples": ["从复杂信息中提炼出一个关键结论", "心里有一个长远目标，做事都围绕它展开"] },
+      "en": { "name": "Introverted Intuition", "short": "Converges on insight; sees the long-term direction", "description": "Integrates much information inwardly into a core insight or long-range picture, often with sudden \"click\" moments; attends to essence and trajectory.", "examples": ["Distills one key conclusion from complex information", "Keeps a long-term goal in mind and arranges work around it"] }
+    },
+    "Te": {
+      "zh-CN": { "name": "外倾思考", "short": "组织资源，追求效率和结果", "description": "用外部的标准、数据和流程来组织事情，重视效率、可衡量的目标和实际成果，善于决策和推动执行。", "examples": ["把杂乱的任务整理成计划并分配", "用是否有效来判断一个方法"] },
+      "en": { "name": "Extraverted Thinking", "short": "Organizes resources; pursues efficiency and results", "description": "Organizes things with external standards, data and processes; values efficiency, measurable goals and real outcomes; decides and drives execution well.", "examples": ["Turns a jumble of tasks into an assigned plan", "Judges a method by whether it works"] }
+    },
+    "Ti": {
+      "zh-CN": { "name": "内倾思考", "short": "构建内在逻辑，追求精确与自洽", "description": "在内心建立一套自洽的逻辑框架，追求定义精确、原理清楚，善于拆解问题、发现矛盾。", "examples": ["一定要弄明白事物运作的原理", "很快发现论证中的漏洞"] },
+      "en": { "name": "Introverted Thinking", "short": "Builds inner logic; seeks precision and consistency", "description": "Builds a self-consistent logical framework inside, seeks precise definitions and clear principles, and is good at breaking problems down and spotting contradictions.", "examples": ["Needs to understand the principle behind how things work", "Quickly spots gaps in an argument"] }
+    },
+    "Fe": {
+      "zh-CN": { "name": "外倾情感", "short": "协调人际，营造和谐氛围", "description": "关注群体的情绪和需要，自然地调整言行让大家舒适，重视礼节、共识和人与人之间的连接。", "examples": ["很快察觉到一群人中的气氛变化", "主动照顾被冷落的人"] },
+      "en": { "name": "Extraverted Feeling", "short": "Harmonizes relationships; creates a good atmosphere", "description": "Attends to the group's feelings and needs, naturally adjusts words and actions to put people at ease, and values courtesy, consensus and connection.", "examples": ["Quickly notices shifts in a group's mood", "Reaches out to someone left out"] }
+    },
+    "Fi": {
+      "zh-CN": { "name": "内倾情感", "short": "忠于内心价值，追求真实", "description": "依据内心深处的价值观做判断，重视真诚、个性和意义，对自己细微的情绪变化很敏感。", "examples": ["不愿做违背自己内心的事", "即使大多数人同意，也会坚持自己的判断"] },
+      "en": { "name": "Introverted Feeling", "short": "True to inner values; seeks authenticity", "description": "Judges by deeply held personal values, cares about sincerity, individuality and meaning, and is sensitive to subtle shifts in own feelings.", "examples": ["Won't do things that go against conscience", "Holds to own judgment even when most people disagree"] }
+    }
+  },
+  "dimensions": {
+    "EI": {
+      "zh-CN": { "name": "精力来源", "first": { "letter": "E", "name": "外向", "description": "更多从与人互动和外部活动中获得能量，倾向于边做边想、边说边想。" }, "second": { "letter": "I", "name": "内向", "description": "更多从独处和内在思考中恢复能量，倾向于想清楚再表达。" } },
+      "en": { "name": "Energy", "first": { "letter": "E", "name": "Extraversion", "description": "Draws energy more from interaction and outside activity; tends to think while doing and talking." }, "second": { "letter": "I", "name": "Introversion", "description": "Recharges more through solitude and inner reflection; tends to think before speaking." } }
+    },
+    "SN": {
+      "zh-CN": { "name": "信息获取", "first": { "letter": "S", "name": "实感", "description": "更关注具体、现实、可验证的信息，重视经验和细节。" }, "second": { "letter": "N", "name": "直觉", "description": "更关注模式、意义和可能性，喜欢想象和整体把握。" } },
+      "en": { "name": "Information", "first": { "letter": "S", "name": "Sensing", "description": "Pays more attention to concrete, real, verifiable information; values experience and detail." }, "second": { "letter": "N", "name": "Intuition", "description": "Pays more attention to patterns, meaning and possibilities; likes imagination and the big picture." } }
+    },
+    "TF": {
+      "zh-CN": { "name": "决策方式", "first": { "letter": "T", "name": "思考", "description": "做决定时更依据逻辑、原则和客观分析。" }, "second": { "letter": "F", "name": "情感", "description": "做决定时更考虑价值观、人的感受和对关系的影响。" } },
+      "en": { "name": "Decisions", "first": { "letter": "T", "name": "Thinking", "description": "Decides more on the basis of logic, principles and objective analysis." }, "second": { "letter": "F", "name": "Feeling", "description": "Decides with more weight on values, people's feelings and effects on relationships." } }
+    },
+    "JP": {
+      "zh-CN": { "name": "生活方式", "first": { "letter": "J", "name": "判断", "description": "喜欢计划、有序和尽早确定，享受把事情完成的感觉。" }, "second": { "letter": "P", "name": "感知", "description": "喜欢灵活、开放和随机应变，享受保留选择的余地。" } },
+      "en": { "name": "Lifestyle", "first": { "letter": "J", "name": "Judging", "description": "Prefers plans, order and settling things early; enjoys finishing." }, "second": { "letter": "P", "name": "Perceiving", "description": "Prefers flexibility, openness and adapting as things come; enjoys keeping options open." } }
+    }
+  }
+}

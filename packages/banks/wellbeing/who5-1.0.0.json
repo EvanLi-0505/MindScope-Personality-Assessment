@@ -1,0 +1,78 @@
+{
+  "kind": "wellbeing",
+  "instrument": "who5",
+  "version": "1.0.0",
+  "status": "published",
+  "shortName": { "zh-CN": "WHO-5", "en": "WHO-5" },
+  "title": { "zh-CN": "WHO-5 幸福感指数", "en": "WHO-5 Well-Being Index" },
+  "description": {
+    "zh-CN": "世界卫生组织五项身心健康指标（WHO-5），用 5 个正面描述了解过去两周的主观幸福感。分数越高表示状态越好。",
+    "en": "The World Health Organization-Five Well-Being Index: five positively worded statements about the last two weeks. Higher scores mean better well-being."
+  },
+  "instructions": {
+    "zh-CN": "请在下面五个句子的每个句子（表述）中标出在过去两星期里你最接近感觉状态。请注意数字越大表明你的身心越健康。例如：如果你在过去两星期里有一半以上时间感到快乐、心情舒畅，就请选择“超过一半的时间”（3）。",
+    "en": "Please indicate for each of the five statements which is closest to how you have been feeling over the last two weeks. Notice that higher numbers mean better well-being. Example: if you have felt cheerful and in good spirits more than half of the time during the last two weeks, select number three."
+  },
+  "license": "CC-BY-NC-SA-3.0-IGO",
+  "licenseNote": {
+    "zh-CN": "© World Health Organization 2024。依据 CC BY-NC-SA 3.0 IGO 许可使用，仅限非商业用途。使用本量表不代表 WHO 认可 MindScope 或任何产品。若将 MindScope 用于商业用途，须移除本量表。",
+    "en": "© World Health Organization 2024. Used under the CC BY-NC-SA 3.0 IGO licence, for non-commercial purposes only. Its use does not suggest that WHO endorses MindScope or any product. Remove this scale from any commercial use of MindScope."
+  },
+  "source": {
+    "zh-CN": "World Health Organization. The World Health Organization-Five Well-Being Index (WHO-5). Geneva: WHO; 2024. 中文版：WHO 网站发布的中国大陆简体中文版（Psychiatric Research Unit，2007 年 9 月；中文版协调人 Ernest Volinn）。",
+    "en": "World Health Organization. The World Health Organization-Five Well-Being Index (WHO-5). Geneva: WHO; 2024. Chinese: the PR China version published on the WHO website (Psychiatric Research Unit, September 2007)."
+  },
+  "citation": "World Health Organization. The World Health Organization-Five Well-Being Index (WHO-5). Geneva: World Health Organization; 2024. License: CC BY-NC-SA 3.0 IGO.",
+  "translationNote": {
+    "zh-CN": "This translation was not created by the World Health Organization (WHO). WHO is not responsible for the content or accuracy of this translation. The original English edition shall be the binding and authentic edition.（本译本并非由世界卫生组织制作，WHO 不对译文的内容或准确性负责，以英文原版为准。）",
+    "en": "This translation was not created by the World Health Organization (WHO). WHO is not responsible for the content or accuracy of this translation. The original English edition shall be the binding and authentic edition."
+  },
+  "options": [
+    { "value": 5, "label": { "zh-CN": "所有时间", "en": "All of the time" } },
+    { "value": 4, "label": { "zh-CN": "大部分时间", "en": "Most of the time" } },
+    { "value": 3, "label": { "zh-CN": "超过一半的时间", "en": "More than half of the time" } },
+    { "value": 2, "label": { "zh-CN": "少于一半的时间", "en": "Less than half of the time" } },
+    { "value": 1, "label": { "zh-CN": "有时候", "en": "Some of the time" } },
+    { "value": 0, "label": { "zh-CN": "从未有过", "en": "At no time" } }
+  ],
+  "items": [
+    { "id": "WHO5-01", "text": { "zh-CN": "我感觉快乐、心情舒畅", "en": "I have felt cheerful and in good spirits" } },
+    { "id": "WHO5-02", "text": { "zh-CN": "我感觉宁静和放松", "en": "I have felt calm and relaxed" } },
+    { "id": "WHO5-03", "text": { "zh-CN": "我感觉充满活力、精力充沛", "en": "I have felt active and vigorous" } },
+    { "id": "WHO5-04", "text": { "zh-CN": "我睡醒时感到清新、得到了足够休息", "en": "I woke up feeling fresh and rested" } },
+    { "id": "WHO5-05", "text": { "zh-CN": "我每天生活充满了有趣的事情", "en": "My daily life has been filled with things that interest me" } }
+  ],
+  "scoring": {
+    "engine": "sum@1",
+    "multiplier": 4,
+    "higherIsBetter": true,
+    "meaningfulChange": 10,
+    "bands": [
+      {
+        "key": "low", "min": 0, "max": 48, "level": "moderate", "seekHelp": true,
+        "label": { "zh-CN": "低于参考线", "en": "Below the reference line" },
+        "summary": {
+          "zh-CN": "百分制得分低于 50。WHO 说明指出，低于 50 分提示近期身心状态较差，建议进一步评估是否存在需要关注的心理健康问题（例如抑郁）。",
+          "en": "Percentage score below 50. WHO notes that a score below 50 suggests poor mental well-being and is an indication for further assessment (for example for depression)."
+        },
+        "suggestions": [
+          { "zh-CN": "可以再完成一次 PHQ-9 抑郁症状自评，或和专业人士聊聊最近的状态。", "en": "Consider also taking the PHQ-9 check-in, or talk with a professional about how you have been." },
+          { "zh-CN": "回顾一下最近的睡眠、压力和生活变化，看看哪些方面可以先做一点调整。", "en": "Look at recent sleep, stress and life changes to see where a small adjustment could start." },
+          { "zh-CN": "把感受告诉信任的人。", "en": "Share how you feel with someone you trust." }
+        ]
+      },
+      {
+        "key": "ok", "min": 52, "max": 100, "level": "good",
+        "label": { "zh-CN": "达到参考线", "en": "At or above the reference line" },
+        "summary": {
+          "zh-CN": "百分制得分不低于 50，没有达到 WHO 建议进一步评估的参考线。分数越高，表示过去两周的主观幸福感越好。",
+          "en": "Percentage score of 50 or more, above the line WHO suggests for further assessment. Higher scores mean better well-being over the last two weeks."
+        },
+        "suggestions": [
+          { "zh-CN": "留意哪些事情让你感到愉快和有活力，并为它们留出时间。", "en": "Notice what makes you feel good and energetic, and keep time for it." },
+          { "zh-CN": "定期自评可以帮助你看到自己的变化；原中文版说明指出百分制相差 10 分可视为明显变化。", "en": "Regular check-ins show how you change over time; the Chinese version notes that a 10-point difference on the percentage scale indicates a meaningful change." }
+        ]
+      }
+    ]
+  }
+}

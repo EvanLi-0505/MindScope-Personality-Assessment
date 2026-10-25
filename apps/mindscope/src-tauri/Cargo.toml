@@ -1,0 +1,55 @@
+[package]
+name = "mindscope"
+version = "0.7.0"
+description = "MindScope desktop shell: portable paths, SQLite, logs, PDF export, optional AI client"
+authors = ["MindScope contributors"]
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/EvanLi-0505/MindScope-Personality-Assessment"
+homepage = "https://github.com/EvanLi-0505/MindScope-Personality-Assessment"
+edition = "2021"
+rust-version = "1.80"
+
+[lib]
+name = "mindscope_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.5", features = [] }
+
+[dependencies]
+tauri = { version = "2.12", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-single-instance = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rusqlite = { version = "0.40", features = ["bundled", "backup"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt"] }
+tracing-appender = "0.2"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+# AI requests only (Phase 5). Windows' own TLS (schannel) and proxy settings.
+reqwest = { version = "0.13", default-features = false, features = ["native-tls", "stream", "http2", "system-proxy"] }
+futures-util = { version = "0.3", default-features = false }
+tokio = { version = "1", features = ["sync", "macros", "time"] }
+
+# Must match the versions Tauri itself uses (see `cargo tree -i webview2-com`),
+# otherwise the WebView2 types from `with_webview` would not line up.
+[target.'cfg(windows)'.dependencies]
+webview2-com = "0.39"
+windows = { version = "0.62", features = [
+  "Win32_Foundation",
+  "Win32_Security_Cryptography",
+  "Win32_System_Com",
+  "Win32_UI_Shell",
+  "Win32_UI_WindowsAndMessaging",
+] }
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

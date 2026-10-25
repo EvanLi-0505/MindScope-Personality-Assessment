@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- MindScope 标志概念 "Octa-Lens"：
+       外圈圆角八边形 = 八种认知功能；中心圆形透镜 = 自我观察 (Scope)；
+       透镜内两条交错波形 = 意识的两种取向（内倾/外倾），也隐约构成字母 M。 -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F7A6D"/>
+      <stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+  </defs>
+  <polygon points="128,14 208.6,47.4 242,128 208.6,208.6 128,242 47.4,208.6 14,128 47.4,47.4"
+           fill="none" stroke="url(#g)" stroke-width="14" stroke-linejoin="round"/>
+  <g fill="url(#g)">
+    <circle cx="128" cy="14" r="9"/><circle cx="208.6" cy="47.4" r="9"/>
+    <circle cx="242" cy="128" r="9"/><circle cx="208.6" cy="208.6" r="9"/>
+    <circle cx="128" cy="242" r="9"/><circle cx="47.4" cy="208.6" r="9"/>
+    <circle cx="14" cy="128" r="9"/><circle cx="47.4" cy="47.4" r="9"/>
+  </g>
+  <circle cx="128" cy="128" r="66" fill="url(#g)"/>
+  <path d="M82 146 C 98 96, 114 96, 128 128 S 158 160, 174 110" fill="none"
+        stroke="#FFFFFF" stroke-width="11" stroke-linecap="round"/>
+  <path d="M82 118 C 98 150, 114 150, 128 128" fill="none"
+        stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,2274 @@
+{
+ "instrument": "ipip-b5",
+ "version": "0.1.0",
+ "status": "experimental",
+ "title": {
+  "zh-CN": "大五人格（先行版）",
+  "en": "Big Five (preview)"
+ },
+ "description": {
+  "zh-CN": "大五人格模型用开放性、尽责性、外向性、宜人性和情绪敏感性（神经质）五个维度描述人格，是心理学研究中使用最广泛的人格模型。题目来自公有领域的国际人格题库（IPIP）。",
+  "en": "The Big Five model describes personality with five broad dimensions — Openness, Conscientiousness, Extraversion, Agreeableness and Neuroticism — and is the most widely used model in personality research. Items come from the public-domain International Personality Item Pool (IPIP)."
+ },
+ "instructions": {
+  "zh-CN": "下面每句话描述了人们的一些行为。请按照你现在通常的样子（而不是希望将来成为的样子）来判断每句话与你的符合程度，并与同性别、年龄相仿的人相比较，诚实地描述自己。",
+  "en": "Describe yourself as you generally are now, not as you wish to be in the future. Describe yourself as you honestly see yourself, in relation to other people you know of the same sex as you are, and roughly your same age."
+ },
+ "source": {
+  "zh-CN": "国际人格题库 IPIP（ipip.ori.org）：Mini-IPIP（Donnellan 等，2006）、IPIP 大五标记 50 题（Goldberg，1992）、IPIP-NEO-120（Johnson，2014）。",
+  "en": "International Personality Item Pool (ipip.ori.org): Mini-IPIP (Donnellan et al., 2006), IPIP 50-item Big-Five factor markers (Goldberg, 1992), IPIP-NEO-120 (Johnson, 2014)."
+ },
+ "license": "Public domain (IPIP items); Chinese translation and adaptations CC-BY-SA-4.0",
+ "licenseNote": {
+  "zh-CN": "IPIP 的题目和量表属于公有领域，可以不经许可、免费使用（见 ipip.ori.org）。中文译文和改编题目由 MindScope 制作，以 CC BY-SA 4.0 发布。",
+  "en": "IPIP items and scales are in the public domain and may be used without permission or fee (see ipip.ori.org). The Chinese translation and adapted items were made by MindScope and are released under CC BY-SA 4.0."
+ },
+ "translationNote": {
+  "zh-CN": "中文由 MindScope 翻译（2026），尚未经过回译和人群验证；资深模式中“价值观开放”子维度的两道投票题已改为中性题目。结果仅供自我了解，与原版英文量表的研究结论不能直接对比。",
+  "en": "Chinese translation by MindScope (2026), not yet back-translated or validated; in the senior form, the two voting items of the Liberalism facet were replaced with neutral items. Results are for self-understanding and are not directly comparable with research on the original English scales."
+ },
+ "citations": [
+  "Goldberg, L. R. (1992). The development of markers for the Big-Five factor structure. Psychological Assessment, 4, 26-42.",
+  "Donnellan, M. B., Oswald, F. L., Baird, B. M., & Lucas, R. E. (2006). The Mini-IPIP scales: Tiny-yet-effective measures of the Big Five factors of personality. Psychological Assessment, 18, 192-203.",
+  "Johnson, J. A. (2014). Measuring thirty facets of the Five Factor Model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality, 51, 78-89.",
+  "Goldberg, L. R., et al. (2006). The International Personality Item Pool and the future of public-domain personality measures. Journal of Research in Personality, 40, 84-96."
+ ],
+ "options": [
+  {
+   "value": 1,
+   "label": {
+    "zh-CN": "非常不符合",
+    "en": "Very inaccurate"
+   }
+  },
+  {
+   "value": 2,
+   "label": {
+    "zh-CN": "比较不符合",
+    "en": "Moderately inaccurate"
+   }
+  },
+  {
+   "value": 3,
+   "label": {
+    "zh-CN": "不确定",
+    "en": "Neither accurate nor inaccurate"
+   }
+  },
+  {
+   "value": 4,
+   "label": {
+    "zh-CN": "比较符合",
+    "en": "Moderately accurate"
+   }
+  },
+  {
+   "value": 5,
+   "label": {
+    "zh-CN": "非常符合",
+    "en": "Very accurate"
+   }
+  }
+ ],
+ "scoring": {
+  "engine": "likert-mean@1",
+  "bands": [
+   2.3333,
+   3.6667
+  ],
+  "minAnsweredRatio": 0.75
+ },
+ "forms": {
+  "quick": {
+   "source": "Mini-IPIP",
+   "citation": "Donnellan et al. (2006)",
+   "facets": false,
+   "entries": [
+    {
+     "item": "B5-001",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-017",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-023",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-039",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-015",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-006",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-022",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-028",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-009",
+     "domain": "N",
+     "key": -1
+    },
+    {
+     "item": "B5-020",
+     "domain": "O",
+     "key": -1
+    },
+    {
+     "item": "B5-031",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-042",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-033",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-029",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-010",
+     "domain": "O",
+     "key": -1
+    },
+    {
+     "item": "B5-016",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-032",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-018",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-019",
+     "domain": "N",
+     "key": -1
+    },
+    {
+     "item": "B5-030",
+     "domain": "O",
+     "key": -1
+    }
+   ]
+  },
+  "normal": {
+   "source": "IPIP 50-item Big-Five factor markers",
+   "citation": "Goldberg (1992)",
+   "facets": false,
+   "entries": [
+    {
+     "item": "B5-001",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-002",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-003",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-004",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-005",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-006",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-007",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-008",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-009",
+     "domain": "N",
+     "key": -1
+    },
+    {
+     "item": "B5-010",
+     "domain": "O",
+     "key": -1
+    },
+    {
+     "item": "B5-011",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-012",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-013",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-014",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-015",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-016",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-017",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-018",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-019",
+     "domain": "N",
+     "key": -1
+    },
+    {
+     "item": "B5-020",
+     "domain": "O",
+     "key": -1
+    },
+    {
+     "item": "B5-021",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-022",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-023",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-024",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-025",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-026",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-027",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-028",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-029",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-030",
+     "domain": "O",
+     "key": -1
+    },
+    {
+     "item": "B5-031",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-032",
+     "domain": "A",
+     "key": -1
+    },
+    {
+     "item": "B5-033",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-034",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-035",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-036",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-037",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-038",
+     "domain": "C",
+     "key": -1
+    },
+    {
+     "item": "B5-039",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-040",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-041",
+     "domain": "E",
+     "key": 1
+    },
+    {
+     "item": "B5-042",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-043",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-044",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-045",
+     "domain": "O",
+     "key": 1
+    },
+    {
+     "item": "B5-046",
+     "domain": "E",
+     "key": -1
+    },
+    {
+     "item": "B5-047",
+     "domain": "A",
+     "key": 1
+    },
+    {
+     "item": "B5-048",
+     "domain": "C",
+     "key": 1
+    },
+    {
+     "item": "B5-049",
+     "domain": "N",
+     "key": 1
+    },
+    {
+     "item": "B5-050",
+     "domain": "O",
+     "key": 1
+    }
+   ]
+  },
+  "senior": {
+   "source": "IPIP-NEO-120",
+   "citation": "Johnson (2014)",
+   "facets": true,
+   "entries": [
+    {
+     "item": "B5-014",
+     "domain": "N",
+     "facet": "N1",
+     "key": 1
+    },
+    {
+     "item": "B5-051",
+     "domain": "E",
+     "facet": "E1",
+     "key": 1
+    },
+    {
+     "item": "B5-015",
+     "domain": "O",
+     "facet": "O1",
+     "key": 1
+    },
+    {
+     "item": "B5-052",
+     "domain": "A",
+     "facet": "A1",
+     "key": 1
+    },
+    {
+     "item": "B5-053",
+     "domain": "C",
+     "facet": "C1",
+     "key": 1
+    },
+    {
+     "item": "B5-054",
+     "domain": "N",
+     "facet": "N2",
+     "key": 1
+    },
+    {
+     "item": "B5-055",
+     "domain": "E",
+     "facet": "E2",
+     "key": 1
+    },
+    {
+     "item": "B5-056",
+     "domain": "O",
+     "facet": "O2",
+     "key": 1
+    },
+    {
+     "item": "B5-057",
+     "domain": "A",
+     "facet": "A2",
+     "key": -1
+    },
+    {
+     "item": "B5-058",
+     "domain": "C",
+     "facet": "C2",
+     "key": 1
+    },
+    {
+     "item": "B5-049",
+     "domain": "N",
+     "facet": "N3",
+     "key": 1
+    },
+    {
+     "item": "B5-059",
+     "domain": "E",
+     "facet": "E3",
+     "key": 1
+    },
+    {
+     "item": "B5-060",
+     "domain": "O",
+     "facet": "O3",
+     "key": 1
+    },
+    {
+     "item": "B5-061",
+     "domain": "A",
+     "facet": "A3",
+     "key": 1
+    },
+    {
+     "item": "B5-062",
+     "domain": "C",
+     "facet": "C3",
+     "key": 1
+    },
+    {
+     "item": "B5-063",
+     "domain": "N",
+     "facet": "N4",
+     "key": 1
+    },
+    {
+     "item": "B5-064",
+     "domain": "E",
+     "facet": "E4",
+     "key": 1
+    },
+    {
+     "item": "B5-065",
+     "domain": "O",
+     "facet": "O4",
+     "key": 1
+    },
+    {
+     "item": "B5-066",
+     "domain": "A",
+     "facet": "A4",
+     "key": -1
+    },
+    {
+     "item": "B5-067",
+     "domain": "C",
+     "facet": "C4",
+     "key": 1
+    },
+    {
+     "item": "B5-068",
+     "domain": "N",
+     "facet": "N5",
+     "key": 1
+    },
+    {
+     "item": "B5-069",
+     "domain": "E",
+     "facet": "E5",
+     "key": 1
+    },
+    {
+     "item": "B5-070",
+     "domain": "O",
+     "facet": "O5",
+     "key": 1
+    },
+    {
+     "item": "B5-071",
+     "domain": "A",
+     "facet": "A5",
+     "key": -1
+    },
+    {
+     "item": "B5-003",
+     "domain": "C",
+     "facet": "C5",
+     "key": 1
+    },
+    {
+     "item": "B5-072",
+     "domain": "N",
+     "facet": "N6",
+     "key": 1
+    },
+    {
+     "item": "B5-073",
+     "domain": "E",
+     "facet": "E6",
+     "key": 1
+    },
+    {
+     "item": "B5-074",
+     "domain": "O",
+     "facet": "O6",
+     "key": 1
+    },
+    {
+     "item": "B5-075",
+     "domain": "A",
+     "facet": "A6",
+     "key": 1
+    },
+    {
+     "item": "B5-076",
+     "domain": "C",
+     "facet": "C6",
+     "key": -1
+    },
+    {
+     "item": "B5-077",
+     "domain": "N",
+     "facet": "N1",
+     "key": 1
+    },
+    {
+     "item": "B5-011",
+     "domain": "E",
+     "facet": "E1",
+     "key": 1
+    },
+    {
+     "item": "B5-078",
+     "domain": "O",
+     "facet": "O1",
+     "key": 1
+    },
+    {
+     "item": "B5-079",
+     "domain": "A",
+     "facet": "A1",
+     "key": 1
+    },
+    {
+     "item": "B5-080",
+     "domain": "C",
+     "facet": "C1",
+     "key": 1
+    },
+    {
+     "item": "B5-044",
+     "domain": "N",
+     "facet": "N2",
+     "key": 1
+    },
+    {
+     "item": "B5-031",
+     "domain": "E",
+     "facet": "E2",
+     "key": 1
+    },
+    {
+     "item": "B5-081",
+     "domain": "O",
+     "facet": "O2",
+     "key": 1
+    },
+    {
+     "item": "B5-082",
+     "domain": "A",
+     "facet": "A2",
+     "key": -1
+    },
+    {
+     "item": "B5-028",
+     "domain": "C",
+     "facet": "C2",
+     "key": -1
+    },
+    {
+     "item": "B5-083",
+     "domain": "N",
+     "facet": "N3",
+     "key": 1
+    },
+    {
+     "item": "B5-084",
+     "domain": "E",
+     "facet": "E3",
+     "key": 1
+    },
+    {
+     "item": "B5-042",
+     "domain": "O",
+     "facet": "O3",
+     "key": 1
+    },
+    {
+     "item": "B5-085",
+     "domain": "A",
+     "facet": "A3",
+     "key": 1
+    },
+    {
+     "item": "B5-086",
+     "domain": "C",
+     "facet": "C3",
+     "key": 1
+    },
+    {
+     "item": "B5-087",
+     "domain": "N",
+     "facet": "N4",
+     "key": 1
+    },
+    {
+     "item": "B5-088",
+     "domain": "E",
+     "facet": "E4",
+     "key": 1
+    },
+    {
+     "item": "B5-089",
+     "domain": "O",
+     "facet": "O4",
+     "key": -1
+    },
+    {
+     "item": "B5-090",
+     "domain": "A",
+     "facet": "A4",
+     "key": -1
+    },
+    {
+     "item": "B5-091",
+     "domain": "C",
+     "facet": "C4",
+     "key": 1
+    },
+    {
+     "item": "B5-092",
+     "domain": "N",
+     "facet": "N5",
+     "key": -1
+    },
+    {
+     "item": "B5-093",
+     "domain": "E",
+     "facet": "E5",
+     "key": 1
+    },
+    {
+     "item": "B5-094",
+     "domain": "O",
+     "facet": "O5",
+     "key": -1
+    },
+    {
+     "item": "B5-095",
+     "domain": "A",
+     "facet": "A5",
+     "key": -1
+    },
+    {
+     "item": "B5-096",
+     "domain": "C",
+     "facet": "C5",
+     "key": 1
+    },
+    {
+     "item": "B5-097",
+     "domain": "N",
+     "facet": "N6",
+     "key": 1
+    },
+    {
+     "item": "B5-098",
+     "domain": "E",
+     "facet": "E6",
+     "key": 1
+    },
+    {
+     "item": "B5-099",
+     "domain": "O",
+     "facet": "O6",
+     "key": 1
+    },
+    {
+     "item": "B5-100",
+     "domain": "A",
+     "facet": "A6",
+     "key": 1
+    },
+    {
+     "item": "B5-101",
+     "domain": "C",
+     "facet": "C6",
+     "key": -1
+    },
+    {
+     "item": "B5-102",
+     "domain": "N",
+     "facet": "N1",
+     "key": 1
+    },
+    {
+     "item": "B5-103",
+     "domain": "E",
+     "facet": "E1",
+     "key": -1
+    },
+    {
+     "item": "B5-104",
+     "domain": "O",
+     "facet": "O1",
+     "key": 1
+    },
+    {
+     "item": "B5-105",
+     "domain": "A",
+     "facet": "A1",
+     "key": 1
+    },
+    {
+     "item": "B5-106",
+     "domain": "C",
+     "facet": "C1",
+     "key": 1
+    },
+    {
+     "item": "B5-107",
+     "domain": "N",
+     "facet": "N2",
+     "key": 1
+    },
+    {
+     "item": "B5-108",
+     "domain": "E",
+     "facet": "E2",
+     "key": -1
+    },
+    {
+     "item": "B5-109",
+     "domain": "O",
+     "facet": "O2",
+     "key": -1
+    },
+    {
+     "item": "B5-110",
+     "domain": "A",
+     "facet": "A2",
+     "key": -1
+    },
+    {
+     "item": "B5-111",
+     "domain": "C",
+     "facet": "C2",
+     "key": -1
+    },
+    {
+     "item": "B5-112",
+     "domain": "N",
+     "facet": "N3",
+     "key": 1
+    },
+    {
+     "item": "B5-113",
+     "domain": "E",
+     "facet": "E3",
+     "key": 1
+    },
+    {
+     "item": "B5-114",
+     "domain": "O",
+     "facet": "O3",
+     "key": -1
+    },
+    {
+     "item": "B5-115",
+     "domain": "A",
+     "facet": "A3",
+     "key": -1
+    },
+    {
+     "item": "B5-116",
+     "domain": "C",
+     "facet": "C3",
+     "key": -1
+    },
+    {
+     "item": "B5-117",
+     "domain": "N",
+     "facet": "N4",
+     "key": 1
+    },
+    {
+     "item": "B5-118",
+     "domain": "E",
+     "facet": "E4",
+     "key": 1
+    },
+    {
+     "item": "B5-119",
+     "domain": "O",
+     "facet": "O4",
+     "key": -1
+    },
+    {
+     "item": "B5-012",
+     "domain": "A",
+     "facet": "A4",
+     "key": -1
+    },
+    {
+     "item": "B5-120",
+     "domain": "C",
+     "facet": "C4",
+     "key": -1
+    },
+    {
+     "item": "B5-121",
+     "domain": "N",
+     "facet": "N5",
+     "key": -1
+    },
+    {
+     "item": "B5-122",
+     "domain": "E",
+     "facet": "E5",
+     "key": 1
+    },
+    {
+     "item": "B5-010",
+     "domain": "O",
+     "facet": "O5",
+     "key": -1
+    },
+    {
+     "item": "B5-123",
+     "domain": "A",
+     "facet": "A5",
+     "key": -1
+    },
+    {
+     "item": "B5-124",
+     "domain": "C",
+     "facet": "C5",
+     "key": -1
+    },
+    {
+     "item": "B5-125",
+     "domain": "N",
+     "facet": "N6",
+     "key": 1
+    },
+    {
+     "item": "B5-126",
+     "domain": "E",
+     "facet": "E6",
+     "key": 1
+    },
+    {
+     "item": "B5-127",
+     "domain": "O",
+     "facet": "O6",
+     "key": -1
+    },
+    {
+     "item": "B5-022",
+     "domain": "A",
+     "facet": "A6",
+     "key": -1
+    },
+    {
+     "item": "B5-128",
+     "domain": "C",
+     "facet": "C6",
+     "key": -1
+    },
+    {
+     "item": "B5-004",
+     "domain": "N",
+     "facet": "N1",
+     "key": 1
+    },
+    {
+     "item": "B5-129",
+     "domain": "E",
+     "facet": "E1",
+     "key": -1
+    },
+    {
+     "item": "B5-130",
+     "domain": "O",
+     "facet": "O1",
+     "key": 1
+    },
+    {
+     "item": "B5-131",
+     "domain": "A",
+     "facet": "A1",
+     "key": -1
+    },
+    {
+     "item": "B5-132",
+     "domain": "C",
+     "facet": "C1",
+     "key": 1
+    },
+    {
+     "item": "B5-133",
+     "domain": "N",
+     "facet": "N2",
+     "key": -1
+    },
+    {
+     "item": "B5-134",
+     "domain": "E",
+     "facet": "E2",
+     "key": -1
+    },
+    {
+     "item": "B5-135",
+     "domain": "O",
+     "facet": "O2",
+     "key": -1
+    },
+    {
+     "item": "B5-136",
+     "domain": "A",
+     "facet": "A2",
+     "key": -1
+    },
+    {
+     "item": "B5-008",
+     "domain": "C",
+     "facet": "C2",
+     "key": -1
+    },
+    {
+     "item": "B5-137",
+     "domain": "N",
+     "facet": "N3",
+     "key": -1
+    },
+    {
+     "item": "B5-138",
+     "domain": "E",
+     "facet": "E3",
+     "key": -1
+    },
+    {
+     "item": "B5-139",
+     "domain": "O",
+     "facet": "O3",
+     "key": -1
+    },
+    {
+     "item": "B5-140",
+     "domain": "A",
+     "facet": "A3",
+     "key": -1
+    },
+    {
+     "item": "B5-141",
+     "domain": "C",
+     "facet": "C3",
+     "key": -1
+    },
+    {
+     "item": "B5-142",
+     "domain": "N",
+     "facet": "N4",
+     "key": -1
+    },
+    {
+     "item": "B5-143",
+     "domain": "E",
+     "facet": "E4",
+     "key": -1
+    },
+    {
+     "item": "B5-144",
+     "domain": "O",
+     "facet": "O4",
+     "key": -1
+    },
+    {
+     "item": "B5-145",
+     "domain": "A",
+     "facet": "A4",
+     "key": -1
+    },
+    {
+     "item": "B5-146",
+     "domain": "C",
+     "facet": "C4",
+     "key": -1
+    },
+    {
+     "item": "B5-147",
+     "domain": "N",
+     "facet": "N5",
+     "key": -1
+    },
+    {
+     "item": "B5-148",
+     "domain": "E",
+     "facet": "E5",
+     "key": 1
+    },
+    {
+     "item": "B5-149",
+     "domain": "O",
+     "facet": "O5",
+     "key": -1
+    },
+    {
+     "item": "B5-150",
+     "domain": "A",
+     "facet": "A5",
+     "key": -1
+    },
+    {
+     "item": "B5-151",
+     "domain": "C",
+     "facet": "C5",
+     "key": -1
+    },
+    {
+     "item": "B5-152",
+     "domain": "N",
+     "facet": "N6",
+     "key": -1
+    },
+    {
+     "item": "B5-153",
+     "domain": "E",
+     "facet": "E6",
+     "key": 1
+    },
+    {
+     "item": "B5-154",
+     "domain": "O",
+     "facet": "O6",
+     "key": -1
+    },
+    {
+     "item": "B5-155",
+     "domain": "A",
+     "facet": "A6",
+     "key": -1
+    },
+    {
+     "item": "B5-156",
+     "domain": "C",
+     "facet": "C6",
+     "key": -1
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "id": "B5-001",
+   "text": {
+    "zh-CN": "我是聚会中的活跃人物。",
+    "en": "Am the life of the party."
+   }
+  },
+  {
+   "id": "B5-002",
+   "text": {
+    "zh-CN": "我不太关心别人。",
+    "en": "Feel little concern for others."
+   }
+  },
+  {
+   "id": "B5-003",
+   "text": {
+    "zh-CN": "我做事总是准备充分。",
+    "en": "Am always prepared."
+   }
+  },
+  {
+   "id": "B5-004",
+   "text": {
+    "zh-CN": "我很容易感到压力很大。",
+    "en": "Get stressed out easily."
+   }
+  },
+  {
+   "id": "B5-005",
+   "text": {
+    "zh-CN": "我的词汇量很丰富。",
+    "en": "Have a rich vocabulary."
+   }
+  },
+  {
+   "id": "B5-006",
+   "text": {
+    "zh-CN": "我话不多。",
+    "en": "Don't talk a lot."
+   }
+  },
+  {
+   "id": "B5-007",
+   "text": {
+    "zh-CN": "我对人很感兴趣。",
+    "en": "Am interested in people."
+   }
+  },
+  {
+   "id": "B5-008",
+   "text": {
+    "zh-CN": "我的东西经常随手乱放。",
+    "en": "Leave my belongings around."
+   }
+  },
+  {
+   "id": "B5-009",
+   "text": {
+    "zh-CN": "我大部分时间都很放松。",
+    "en": "Am relaxed most of the time."
+   }
+  },
+  {
+   "id": "B5-010",
+   "text": {
+    "zh-CN": "我很难理解抽象的概念。",
+    "en": "Have difficulty understanding abstract ideas."
+   }
+  },
+  {
+   "id": "B5-011",
+   "text": {
+    "zh-CN": "和别人在一起时我感到自在。",
+    "en": "Feel comfortable around people."
+   }
+  },
+  {
+   "id": "B5-012",
+   "text": {
+    "zh-CN": "我会出言冒犯别人。",
+    "en": "Insult people."
+   }
+  },
+  {
+   "id": "B5-013",
+   "text": {
+    "zh-CN": "我注重细节。",
+    "en": "Pay attention to details."
+   }
+  },
+  {
+   "id": "B5-014",
+   "text": {
+    "zh-CN": "我常常为各种事情担心。",
+    "en": "Worry about things."
+   }
+  },
+  {
+   "id": "B5-015",
+   "text": {
+    "zh-CN": "我的想象力很丰富。",
+    "en": "Have a vivid imagination."
+   }
+  },
+  {
+   "id": "B5-016",
+   "text": {
+    "zh-CN": "我习惯待在不显眼的位置。",
+    "en": "Keep in the background."
+   }
+  },
+  {
+   "id": "B5-017",
+   "text": {
+    "zh-CN": "我能体谅别人的感受。",
+    "en": "Sympathize with others' feelings."
+   }
+  },
+  {
+   "id": "B5-018",
+   "text": {
+    "zh-CN": "我常把事情弄得一团糟。",
+    "en": "Make a mess of things."
+   }
+  },
+  {
+   "id": "B5-019",
+   "text": {
+    "zh-CN": "我很少感到情绪低落。",
+    "en": "Seldom feel blue."
+   }
+  },
+  {
+   "id": "B5-020",
+   "text": {
+    "zh-CN": "我对抽象的概念不感兴趣。",
+    "en": "Am not interested in abstract ideas."
+   }
+  },
+  {
+   "id": "B5-021",
+   "text": {
+    "zh-CN": "我会主动和别人搭话。",
+    "en": "Start conversations."
+   }
+  },
+  {
+   "id": "B5-022",
+   "text": {
+    "zh-CN": "我对别人遇到的难处不感兴趣。",
+    "en": "Am not interested in other people's problems."
+   }
+  },
+  {
+   "id": "B5-023",
+   "text": {
+    "zh-CN": "我会马上把琐事做完。",
+    "en": "Get chores done right away."
+   }
+  },
+  {
+   "id": "B5-024",
+   "text": {
+    "zh-CN": "我很容易心神不宁。",
+    "en": "Am easily disturbed."
+   }
+  },
+  {
+   "id": "B5-025",
+   "text": {
+    "zh-CN": "我常有很好的点子。",
+    "en": "Have excellent ideas."
+   }
+  },
+  {
+   "id": "B5-026",
+   "text": {
+    "zh-CN": "我常常没什么话可说。",
+    "en": "Have little to say."
+   }
+  },
+  {
+   "id": "B5-027",
+   "text": {
+    "zh-CN": "我心肠很软。",
+    "en": "Have a soft heart."
+   }
+  },
+  {
+   "id": "B5-028",
+   "text": {
+    "zh-CN": "我经常忘记把东西放回原处。",
+    "en": "Often forget to put things back in their proper place."
+   }
+  },
+  {
+   "id": "B5-029",
+   "text": {
+    "zh-CN": "我很容易心烦。",
+    "en": "Get upset easily."
+   }
+  },
+  {
+   "id": "B5-030",
+   "text": {
+    "zh-CN": "我的想象力不太好。",
+    "en": "Do not have a good imagination."
+   }
+  },
+  {
+   "id": "B5-031",
+   "text": {
+    "zh-CN": "在聚会上我会和很多不同的人交谈。",
+    "en": "Talk to a lot of different people at parties."
+   }
+  },
+  {
+   "id": "B5-032",
+   "text": {
+    "zh-CN": "我对别人并不真正感兴趣。",
+    "en": "Am not really interested in others."
+   }
+  },
+  {
+   "id": "B5-033",
+   "text": {
+    "zh-CN": "我喜欢井然有序。",
+    "en": "Like order."
+   }
+  },
+  {
+   "id": "B5-034",
+   "text": {
+    "zh-CN": "我的心情经常变来变去。",
+    "en": "Change my mood a lot."
+   }
+  },
+  {
+   "id": "B5-035",
+   "text": {
+    "zh-CN": "我理解事物很快。",
+    "en": "Am quick to understand things."
+   }
+  },
+  {
+   "id": "B5-036",
+   "text": {
+    "zh-CN": "我不喜欢引人注意。",
+    "en": "Don't like to draw attention to myself."
+   }
+  },
+  {
+   "id": "B5-037",
+   "text": {
+    "zh-CN": "我愿意抽出时间给别人。",
+    "en": "Take time out for others."
+   }
+  },
+  {
+   "id": "B5-038",
+   "text": {
+    "zh-CN": "我会逃避自己应尽的责任。",
+    "en": "Shirk my duties."
+   }
+  },
+  {
+   "id": "B5-039",
+   "text": {
+    "zh-CN": "我的情绪经常大起大落。",
+    "en": "Have frequent mood swings."
+   }
+  },
+  {
+   "id": "B5-040",
+   "text": {
+    "zh-CN": "我说话时会用一些难懂的词。",
+    "en": "Use difficult words."
+   }
+  },
+  {
+   "id": "B5-041",
+   "text": {
+    "zh-CN": "我不介意成为众人关注的焦点。",
+    "en": "Don't mind being the center of attention."
+   }
+  },
+  {
+   "id": "B5-042",
+   "text": {
+    "zh-CN": "我能感受到别人的情绪。",
+    "en": "Feel others' emotions."
+   }
+  },
+  {
+   "id": "B5-043",
+   "text": {
+    "zh-CN": "我会按日程安排做事。",
+    "en": "Follow a schedule."
+   }
+  },
+  {
+   "id": "B5-044",
+   "text": {
+    "zh-CN": "我很容易烦躁。",
+    "en": "Get irritated easily."
+   }
+  },
+  {
+   "id": "B5-045",
+   "text": {
+    "zh-CN": "我会花时间反思各种事情。",
+    "en": "Spend time reflecting on things."
+   }
+  },
+  {
+   "id": "B5-046",
+   "text": {
+    "zh-CN": "在陌生人面前我很安静。",
+    "en": "Am quiet around strangers."
+   }
+  },
+  {
+   "id": "B5-047",
+   "text": {
+    "zh-CN": "我能让别人感到轻松自在。",
+    "en": "Make people feel at ease."
+   }
+  },
+  {
+   "id": "B5-048",
+   "text": {
+    "zh-CN": "我对自己的工作要求严格、一丝不苟。",
+    "en": "Am exacting in my work."
+   }
+  },
+  {
+   "id": "B5-049",
+   "text": {
+    "zh-CN": "我经常感到情绪低落。",
+    "en": "Often feel blue."
+   }
+  },
+  {
+   "id": "B5-050",
+   "text": {
+    "zh-CN": "我脑子里总有很多想法。",
+    "en": "Am full of ideas."
+   }
+  },
+  {
+   "id": "B5-051",
+   "text": {
+    "zh-CN": "我很容易交到朋友。",
+    "en": "Make friends easily."
+   }
+  },
+  {
+   "id": "B5-052",
+   "text": {
+    "zh-CN": "我信任别人。",
+    "en": "Trust others."
+   }
+  },
+  {
+   "id": "B5-053",
+   "text": {
+    "zh-CN": "我能顺利完成任务。",
+    "en": "Complete tasks successfully."
+   }
+  },
+  {
+   "id": "B5-054",
+   "text": {
+    "zh-CN": "我很容易生气。",
+    "en": "Get angry easily."
+   }
+  },
+  {
+   "id": "B5-055",
+   "text": {
+    "zh-CN": "我喜欢热闹的大型聚会。",
+    "en": "Love large parties."
+   }
+  },
+  {
+   "id": "B5-056",
+   "text": {
+    "zh-CN": "我相信艺术很重要。",
+    "en": "Believe in the importance of art."
+   }
+  },
+  {
+   "id": "B5-057",
+   "text": {
+    "zh-CN": "我会利用别人来达到自己的目的。",
+    "en": "Use others for my own ends."
+   }
+  },
+  {
+   "id": "B5-058",
+   "text": {
+    "zh-CN": "我喜欢收拾整理。",
+    "en": "Like to tidy up."
+   }
+  },
+  {
+   "id": "B5-059",
+   "text": {
+    "zh-CN": "我会主动挑起担子、负责局面。",
+    "en": "Take charge."
+   }
+  },
+  {
+   "id": "B5-060",
+   "text": {
+    "zh-CN": "我的情绪体验很强烈。",
+    "en": "Experience my emotions intensely."
+   }
+  },
+  {
+   "id": "B5-061",
+   "text": {
+    "zh-CN": "我会关心别人。",
+    "en": "Am concerned about others."
+   }
+  },
+  {
+   "id": "B5-062",
+   "text": {
+    "zh-CN": "我会信守承诺。",
+    "en": "Keep my promises."
+   }
+  },
+  {
+   "id": "B5-063",
+   "text": {
+    "zh-CN": "我觉得很难主动接近别人。",
+    "en": "Find it difficult to approach others."
+   }
+  },
+  {
+   "id": "B5-064",
+   "text": {
+    "zh-CN": "我总是很忙。",
+    "en": "Am always busy."
+   }
+  },
+  {
+   "id": "B5-065",
+   "text": {
+    "zh-CN": "比起一成不变，我更喜欢多样和变化。",
+    "en": "Prefer variety to routine."
+   }
+  },
+  {
+   "id": "B5-066",
+   "text": {
+    "zh-CN": "我喜欢和人激烈地争个高下。",
+    "en": "Love a good fight."
+   }
+  },
+  {
+   "id": "B5-067",
+   "text": {
+    "zh-CN": "我做的比别人期望的更多。",
+    "en": "Do more than what's expected of me."
+   }
+  },
+  {
+   "id": "B5-068",
+   "text": {
+    "zh-CN": "我会一时放纵、毫无节制（例如暴饮暴食、疯狂购物）。",
+    "en": "Go on binges."
+   }
+  },
+  {
+   "id": "B5-069",
+   "text": {
+    "zh-CN": "我喜欢刺激。",
+    "en": "Love excitement."
+   }
+  },
+  {
+   "id": "B5-070",
+   "text": {
+    "zh-CN": "我喜欢阅读有挑战性的内容。",
+    "en": "Love to read challenging material."
+   }
+  },
+  {
+   "id": "B5-071",
+   "text": {
+    "zh-CN": "我认为自己比别人强。",
+    "en": "Believe that I am better than others."
+   }
+  },
+  {
+   "id": "B5-072",
+   "text": {
+    "zh-CN": "我很容易惊慌失措。",
+    "en": "Panic easily."
+   }
+  },
+  {
+   "id": "B5-073",
+   "text": {
+    "zh-CN": "我浑身散发着快乐。",
+    "en": "Radiate joy."
+   }
+  },
+  {
+   "id": "B5-074",
+   "text": {
+    "zh-CN": "我愿意重新审视自己长期持有的观念。",
+    "en": "Am willing to rethink beliefs I have long held."
+   },
+   "adapted": {
+    "replaces": "Tend to vote for liberal political candidates."
+   }
+  },
+  {
+   "id": "B5-075",
+   "text": {
+    "zh-CN": "我同情无家可归的人。",
+    "en": "Sympathize with the homeless."
+   }
+  },
+  {
+   "id": "B5-076",
+   "text": {
+    "zh-CN": "我会不假思索地一头扎进去做事。",
+    "en": "Jump into things without thinking."
+   }
+  },
+  {
+   "id": "B5-077",
+   "text": {
+    "zh-CN": "我总是往最坏的方面想。",
+    "en": "Fear for the worst."
+   }
+  },
+  {
+   "id": "B5-078",
+   "text": {
+    "zh-CN": "我喜欢天马行空地幻想。",
+    "en": "Enjoy wild flights of fantasy."
+   }
+  },
+  {
+   "id": "B5-079",
+   "text": {
+    "zh-CN": "我相信别人通常是出于好意。",
+    "en": "Believe that others have good intentions."
+   }
+  },
+  {
+   "id": "B5-080",
+   "text": {
+    "zh-CN": "我在自己做的事情上表现出色。",
+    "en": "Excel in what I do."
+   }
+  },
+  {
+   "id": "B5-081",
+   "text": {
+    "zh-CN": "我能在别人可能注意不到的事物中发现美。",
+    "en": "See beauty in things that others might not notice."
+   }
+  },
+  {
+   "id": "B5-082",
+   "text": {
+    "zh-CN": "我会为了领先而作弊。",
+    "en": "Cheat to get ahead."
+   }
+  },
+  {
+   "id": "B5-083",
+   "text": {
+    "zh-CN": "我不喜欢自己。",
+    "en": "Dislike myself."
+   }
+  },
+  {
+   "id": "B5-084",
+   "text": {
+    "zh-CN": "我会尝试带领别人。",
+    "en": "Try to lead others."
+   }
+  },
+  {
+   "id": "B5-085",
+   "text": {
+    "zh-CN": "我乐于帮助别人。",
+    "en": "Love to help others."
+   }
+  },
+  {
+   "id": "B5-086",
+   "text": {
+    "zh-CN": "我会说实话。",
+    "en": "Tell the truth."
+   }
+  },
+  {
+   "id": "B5-087",
+   "text": {
+    "zh-CN": "我害怕引起别人的注意。",
+    "en": "Am afraid to draw attention to myself."
+   }
+  },
+  {
+   "id": "B5-088",
+   "text": {
+    "zh-CN": "我总是闲不下来、四处奔忙。",
+    "en": "Am always on the go."
+   }
+  },
+  {
+   "id": "B5-089",
+   "text": {
+    "zh-CN": "我更愿意做自己熟悉的事。",
+    "en": "Prefer to stick with things that I know."
+   }
+  },
+  {
+   "id": "B5-090",
+   "text": {
+    "zh-CN": "我会对人大吼大叫。",
+    "en": "Yell at people."
+   }
+  },
+  {
+   "id": "B5-091",
+   "text": {
+    "zh-CN": "我工作努力。",
+    "en": "Work hard."
+   }
+  },
+  {
+   "id": "B5-092",
+   "text": {
+    "zh-CN": "我很少过度放纵自己。",
+    "en": "Rarely overindulge."
+   }
+  },
+  {
+   "id": "B5-093",
+   "text": {
+    "zh-CN": "我会去寻找冒险的机会。",
+    "en": "Seek adventure."
+   }
+  },
+  {
+   "id": "B5-094",
+   "text": {
+    "zh-CN": "我会回避哲学性的讨论。",
+    "en": "Avoid philosophical discussions."
+   }
+  },
+  {
+   "id": "B5-095",
+   "text": {
+    "zh-CN": "我把自己看得很高。",
+    "en": "Think highly of myself."
+   }
+  },
+  {
+   "id": "B5-096",
+   "text": {
+    "zh-CN": "我会把计划付诸实行。",
+    "en": "Carry out my plans."
+   }
+  },
+  {
+   "id": "B5-097",
+   "text": {
+    "zh-CN": "发生的事情常常让我应付不过来。",
+    "en": "Become overwhelmed by events."
+   }
+  },
+  {
+   "id": "B5-098",
+   "text": {
+    "zh-CN": "我过得很开心。",
+    "en": "Have a lot of fun."
+   }
+  },
+  {
+   "id": "B5-099",
+   "text": {
+    "zh-CN": "我认为没有绝对的对与错。",
+    "en": "Believe that there is no absolute right and wrong."
+   }
+  },
+  {
+   "id": "B5-100",
+   "text": {
+    "zh-CN": "我同情那些境况比我差的人。",
+    "en": "Feel sympathy for those who are worse off than myself."
+   }
+  },
+  {
+   "id": "B5-101",
+   "text": {
+    "zh-CN": "我会草率地做决定。",
+    "en": "Make rash decisions."
+   }
+  },
+  {
+   "id": "B5-102",
+   "text": {
+    "zh-CN": "我害怕很多事情。",
+    "en": "Am afraid of many things."
+   }
+  },
+  {
+   "id": "B5-103",
+   "text": {
+    "zh-CN": "我会回避和别人接触。",
+    "en": "Avoid contacts with others."
+   }
+  },
+  {
+   "id": "B5-104",
+   "text": {
+    "zh-CN": "我喜欢做白日梦。",
+    "en": "Love to daydream."
+   }
+  },
+  {
+   "id": "B5-105",
+   "text": {
+    "zh-CN": "我相信别人说的话。",
+    "en": "Trust what people say."
+   }
+  },
+  {
+   "id": "B5-106",
+   "text": {
+    "zh-CN": "我处理事情得心应手。",
+    "en": "Handle tasks smoothly."
+   }
+  },
+  {
+   "id": "B5-107",
+   "text": {
+    "zh-CN": "我会发脾气。",
+    "en": "Lose my temper."
+   }
+  },
+  {
+   "id": "B5-108",
+   "text": {
+    "zh-CN": "我更喜欢独处。",
+    "en": "Prefer to be alone."
+   }
+  },
+  {
+   "id": "B5-109",
+   "text": {
+    "zh-CN": "我不喜欢诗歌。",
+    "en": "Do not like poetry."
+   }
+  },
+  {
+   "id": "B5-110",
+   "text": {
+    "zh-CN": "我会占别人的便宜。",
+    "en": "Take advantage of others."
+   }
+  },
+  {
+   "id": "B5-111",
+   "text": {
+    "zh-CN": "我的房间常常乱七八糟。",
+    "en": "Leave a mess in my room."
+   }
+  },
+  {
+   "id": "B5-112",
+   "text": {
+    "zh-CN": "我常常闷闷不乐。",
+    "en": "Am often down in the dumps."
+   }
+  },
+  {
+   "id": "B5-113",
+   "text": {
+    "zh-CN": "我会把事情掌控在自己手里。",
+    "en": "Take control of things."
+   }
+  },
+  {
+   "id": "B5-114",
+   "text": {
+    "zh-CN": "我很少留意自己的情绪反应。",
+    "en": "Rarely notice my emotional reactions."
+   }
+  },
+  {
+   "id": "B5-115",
+   "text": {
+    "zh-CN": "我对别人的感受漠不关心。",
+    "en": "Am indifferent to the feelings of others."
+   }
+  },
+  {
+   "id": "B5-116",
+   "text": {
+    "zh-CN": "我会违反规则。",
+    "en": "Break rules."
+   }
+  },
+  {
+   "id": "B5-117",
+   "text": {
+    "zh-CN": "只有和朋友在一起时我才感到自在。",
+    "en": "Only feel comfortable with friends."
+   }
+  },
+  {
+   "id": "B5-118",
+   "text": {
+    "zh-CN": "我在业余时间会做很多事情。",
+    "en": "Do a lot in my spare time."
+   }
+  },
+  {
+   "id": "B5-119",
+   "text": {
+    "zh-CN": "我不喜欢变化。",
+    "en": "Dislike changes."
+   }
+  },
+  {
+   "id": "B5-120",
+   "text": {
+    "zh-CN": "我在工作上投入的时间和精力很少。",
+    "en": "Put little time and effort into my work."
+   }
+  },
+  {
+   "id": "B5-121",
+   "text": {
+    "zh-CN": "我能轻松抵抗诱惑。",
+    "en": "Easily resist temptations."
+   }
+  },
+  {
+   "id": "B5-122",
+   "text": {
+    "zh-CN": "我享受不顾后果的感觉。",
+    "en": "Enjoy being reckless."
+   }
+  },
+  {
+   "id": "B5-123",
+   "text": {
+    "zh-CN": "我对自己的评价很高。",
+    "en": "Have a high opinion of myself."
+   }
+  },
+  {
+   "id": "B5-124",
+   "text": {
+    "zh-CN": "我会浪费时间。",
+    "en": "Waste my time."
+   }
+  },
+  {
+   "id": "B5-125",
+   "text": {
+    "zh-CN": "我觉得自己没有能力应对各种事情。",
+    "en": "Feel that I'm unable to deal with things."
+   }
+  },
+  {
+   "id": "B5-126",
+   "text": {
+    "zh-CN": "我热爱生活。",
+    "en": "Love life."
+   }
+  },
+  {
+   "id": "B5-127",
+   "text": {
+    "zh-CN": "我认为传统的做法总是最好的。",
+    "en": "Believe that the traditional way of doing things is always best."
+   },
+   "adapted": {
+    "replaces": "Tend to vote for conservative political candidates."
+   }
+  },
+  {
+   "id": "B5-128",
+   "text": {
+    "zh-CN": "我做事很冲动、急于求成。",
+    "en": "Rush into things."
+   }
+  },
+  {
+   "id": "B5-129",
+   "text": {
+    "zh-CN": "我会和别人保持距离。",
+    "en": "Keep others at a distance."
+   }
+  },
+  {
+   "id": "B5-130",
+   "text": {
+    "zh-CN": "我喜欢沉浸在思考之中。",
+    "en": "Like to get lost in thought."
+   }
+  },
+  {
+   "id": "B5-131",
+   "text": {
+    "zh-CN": "我不信任别人。",
+    "en": "Distrust people."
+   }
+  },
+  {
+   "id": "B5-132",
+   "text": {
+    "zh-CN": "我知道怎样把事情办成。",
+    "en": "Know how to get things done."
+   }
+  },
+  {
+   "id": "B5-133",
+   "text": {
+    "zh-CN": "我不容易被惹恼。",
+    "en": "Am not easily annoyed."
+   }
+  },
+  {
+   "id": "B5-134",
+   "text": {
+    "zh-CN": "我会避开人多的地方。",
+    "en": "Avoid crowds."
+   }
+  },
+  {
+   "id": "B5-135",
+   "text": {
+    "zh-CN": "我不喜欢逛美术馆或艺术展。",
+    "en": "Do not enjoy going to art museums."
+   }
+  },
+  {
+   "id": "B5-136",
+   "text": {
+    "zh-CN": "我会妨碍别人的计划。",
+    "en": "Obstruct others' plans."
+   }
+  },
+  {
+   "id": "B5-137",
+   "text": {
+    "zh-CN": "我能接纳自己，和自己相处得很自在。",
+    "en": "Feel comfortable with myself."
+   }
+  },
+  {
+   "id": "B5-138",
+   "text": {
+    "zh-CN": "我会等别人来带头。",
+    "en": "Wait for others to lead the way."
+   }
+  },
+  {
+   "id": "B5-139",
+   "text": {
+    "zh-CN": "我不理解那些容易情绪化的人。",
+    "en": "Don't understand people who get emotional."
+   }
+  },
+  {
+   "id": "B5-140",
+   "text": {
+    "zh-CN": "我不愿为别人花时间。",
+    "en": "Take no time for others."
+   }
+  },
+  {
+   "id": "B5-141",
+   "text": {
+    "zh-CN": "我会违背自己的承诺。",
+    "en": "Break my promises."
+   }
+  },
+  {
+   "id": "B5-142",
+   "text": {
+    "zh-CN": "棘手的社交场合不会让我感到困扰。",
+    "en": "Am not bothered by difficult social situations."
+   }
+  },
+  {
+   "id": "B5-143",
+   "text": {
+    "zh-CN": "我喜欢悠闲自在、不慌不忙。",
+    "en": "Like to take it easy."
+   }
+  },
+  {
+   "id": "B5-144",
+   "text": {
+    "zh-CN": "我习惯沿用传统的做法。",
+    "en": "Am attached to conventional ways."
+   }
+  },
+  {
+   "id": "B5-145",
+   "text": {
+    "zh-CN": "我会报复别人。",
+    "en": "Get back at others."
+   }
+  },
+  {
+   "id": "B5-146",
+   "text": {
+    "zh-CN": "我做事只求过得去。",
+    "en": "Do just enough work to get by."
+   }
+  },
+  {
+   "id": "B5-147",
+   "text": {
+    "zh-CN": "我能控制住自己的欲望。",
+    "en": "Am able to control my cravings."
+   }
+  },
+  {
+   "id": "B5-148",
+   "text": {
+    "zh-CN": "我会做一些疯狂出格的事。",
+    "en": "Act wild and crazy."
+   }
+  },
+  {
+   "id": "B5-149",
+   "text": {
+    "zh-CN": "我对理论性的讨论不感兴趣。",
+    "en": "Am not interested in theoretical discussions."
+   }
+  },
+  {
+   "id": "B5-150",
+   "text": {
+    "zh-CN": "我会夸耀自己的优点。",
+    "en": "Boast about my virtues."
+   }
+  },
+  {
+   "id": "B5-151",
+   "text": {
+    "zh-CN": "我很难开始动手做事。",
+    "en": "Have difficulty starting tasks."
+   }
+  },
+  {
+   "id": "B5-152",
+   "text": {
+    "zh-CN": "在压力下我能保持冷静。",
+    "en": "Remain calm under pressure."
+   }
+  },
+  {
+   "id": "B5-153",
+   "text": {
+    "zh-CN": "我会看到生活中光明的一面。",
+    "en": "Look at the bright side of life."
+   }
+  },
+  {
+   "id": "B5-154",
+   "text": {
+    "zh-CN": "我认为应该严厉打击犯罪。",
+    "en": "Believe that we should be tough on crime."
+   }
+  },
+  {
+   "id": "B5-155",
+   "text": {
+    "zh-CN": "我尽量不去想那些需要帮助的人。",
+    "en": "Try not to think about the needy."
+   }
+  },
+  {
+   "id": "B5-156",
+   "text": {
+    "zh-CN": "我做事不经过思考。",
+    "en": "Act without thinking."
+   }
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "wellbeing",
+  "instrument": "ms-stress",
+  "version": "0.1.0",
+  "status": "experimental",
+  "shortName": { "zh-CN": "压力自评", "en": "Stress" },
+  "title": { "zh-CN": "MindScope 压力自评（非标准化）", "en": "MindScope Stress Check-in (non-standardized)" },
+  "description": {
+    "zh-CN": "MindScope 自编的 10 题压力自评，了解最近两周的压力感受、身心紧张程度和应对资源。这不是标准化量表，分数只适合和自己的历次结果比较。",
+    "en": "A 10-item stress check-in written by MindScope, covering felt pressure, physical and mental tension and coping resources over the last two weeks. It is not a standardized scale; scores are best compared with your own past results."
+  },
+  "instructions": {
+    "zh-CN": "回想最近两周，以下情况出现的频率如何？",
+    "en": "Thinking about the last two weeks, how often did the following happen?"
+  },
+  "license": "CC-BY-SA-4.0",
+  "licenseNote": {
+    "zh-CN": "MindScope 项目自编，以 CC BY-SA 4.0 发布。",
+    "en": "Written by the MindScope project, released under CC BY-SA 4.0."
+  },
+  "source": {
+    "zh-CN": "MindScope 自编（2026）。尚未经过常模和效度验证，分段仅为粗略参考，不对应任何临床分级。",
+    "en": "Written by MindScope (2026). Not validated against norms; the bands are rough guides and do not correspond to any clinical grading."
+  },
+  "citation": "MindScope contributors. MindScope Stress Check-in v0.1.0 (non-standardized). 2026. CC BY-SA 4.0.",
+  "options": [
+    { "value": 0, "label": { "zh-CN": "从不", "en": "Never" } },
+    { "value": 1, "label": { "zh-CN": "很少", "en": "Rarely" } },
+    { "value": 2, "label": { "zh-CN": "有时", "en": "Sometimes" } },
+    { "value": 3, "label": { "zh-CN": "经常", "en": "Often" } },
+    { "value": 4, "label": { "zh-CN": "总是", "en": "Always" } }
+  ],
+  "items": [
+    { "id": "STR-01", "text": { "zh-CN": "我觉得要做的事情太多，忙不过来。", "en": "I felt there was too much to do to keep up." } },
+    { "id": "STR-02", "text": { "zh-CN": "我常常感到紧绷，很难真正松一口气。", "en": "I felt tense and found it hard to really let go." } },
+    { "id": "STR-03", "text": { "zh-CN": "我很难把注意力集中在手头的事情上。", "en": "I found it hard to concentrate on the task at hand." } },
+    { "id": "STR-04", "text": { "zh-CN": "我觉得生活或工作中的要求超出了自己能应付的范围。", "en": "The demands of life or work felt like more than I could manage." } },
+    { "id": "STR-05", "text": { "zh-CN": "压力或心事影响了我的睡眠。", "en": "Stress or worries affected my sleep." } },
+    { "id": "STR-06", "text": { "zh-CN": "我出现了身体上的紧张反应，比如肩颈僵硬、头痛或肠胃不适。", "en": "I had physical signs of tension, such as a stiff neck, headaches or an upset stomach." } },
+    { "id": "STR-07", "text": { "zh-CN": "我容易因为小事发脾气或不耐烦。", "en": "Small things made me lose my temper or feel impatient." } },
+    { "id": "STR-08", "text": { "zh-CN": "我能找到让自己放松下来的办法。", "en": "I could find ways to help myself relax." }, "reverse": true },
+    { "id": "STR-09", "text": { "zh-CN": "我对自己处理问题的方式感到满意。", "en": "I was satisfied with how I handled problems." }, "reverse": true },
+    { "id": "STR-10", "text": { "zh-CN": "遇到压力时，我身边有可以倾诉或求助的人。", "en": "When under pressure, I had someone to talk to or ask for help." }, "reverse": true }
+  ],
+  "scoring": {
+    "engine": "sum@1",
+    "multiplier": 1,
+    "higherIsBetter": false,
+    "bands": [
+      {
+        "key": "low", "min": 0, "max": 13, "level": "minimal",
+        "label": { "zh-CN": "压力感较低", "en": "Lower stress" },
+        "summary": { "zh-CN": "最近两周感受到的压力相对较少，或者你有比较充足的应对资源。", "en": "Relatively little felt stress over the last two weeks, or good coping resources." },
+        "suggestions": [
+          { "zh-CN": "留意哪些习惯和关系在支持你，继续保持。", "en": "Notice which habits and relationships support you, and keep them up." }
+        ]
+      },
+      {
+        "key": "medium", "min": 14, "max": 26, "level": "mild",
+        "label": { "zh-CN": "压力感中等", "en": "Moderate stress" },
+        "summary": { "zh-CN": "最近有一定的压力感受。适度的压力很常见，关键在于是否有恢复的空间。", "en": "Some felt stress recently. Moderate stress is common; what matters is having room to recover." },
+        "suggestions": [
+          { "zh-CN": "给自己安排固定的休息和放松时间，哪怕每天只有十几分钟。", "en": "Schedule regular rest and relaxation, even ten or fifteen minutes a day." },
+          { "zh-CN": "把待办事项按轻重缓急排序，必要时请别人分担。", "en": "Prioritise your to-dos and ask others to share the load when needed." },
+          { "zh-CN": "规律睡眠和运动是缓解压力最可靠的方法之一。", "en": "Regular sleep and exercise are among the most reliable ways to ease stress." }
+        ]
+      },
+      {
+        "key": "high", "min": 27, "max": 40, "level": "moderate", "seekHelp": true,
+        "label": { "zh-CN": "压力感较高", "en": "Higher stress" },
+        "summary": { "zh-CN": "最近两周的压力感受比较强，身心可能都有些吃不消。这是一个提醒你照顾自己的信号。", "en": "Strong felt stress over the last two weeks; body and mind may be stretched. Treat this as a signal to look after yourself." },
+        "suggestions": [
+          { "zh-CN": "看看有哪些压力来源可以暂时减少、推迟或寻求帮助。", "en": "Look for sources of pressure that can be reduced, postponed or shared." },
+          { "zh-CN": "和信任的人谈谈，或者向心理咨询师寻求支持。", "en": "Talk with someone you trust, or seek support from a counsellor." },
+          { "zh-CN": "如果同时伴有持续的情绪低落或焦虑，可以完成 PHQ-9 或 GAD-7 自评作进一步了解。", "en": "If low mood or anxiety persist as well, the PHQ-9 or GAD-7 check-ins can give a fuller picture." }
+        ]
+      }
+    ]
+  }
+}
